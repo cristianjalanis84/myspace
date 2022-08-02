@@ -1,0 +1,406 @@
+********************************************************************
+*  Wed Apr 13 11:29:52 2022
+*  Busqueda de la TM PGH0089
+********************************************************************
+0867-OPGG-3PCOP-002-F_Station_Keeping_Maneuver.xlsm
+0867-OPGG-3PCOP-003-E_IRES_Inhibition.XLSM
+0867-OPGG-3PCOP-006-F_Wheel_change_over.xlsm
+0867-OPGG-3PCOP-007-C Thruster abnormal Temperature.XLSM
+0867-OPGG-3PCOP-008-D_Recovery_from_SUN.xlsm
+0867-OPGG-3PCOP-013-D_EEPROM_Refresh_for_GYRO.xlsm
+0867-OPGG-3PCOP-014-F_ACE_Switch_over.xlsm
+0867-OPGG-3PCOP-015-D_ACE_Shadow_Testing.xlsm
+0867-OPGG-3PCOP-016-C_Gyro_Calibration.xlsx
+0867-OPGG-3PCOP-017-F Reconfiguration after NOM_TR.xlsm
+0867-OPGG-3PCOP-018-D_East_West_Maneuver_using_Manual_Thrust.xlsm
+0867-OPGG-3PCOP-019-B_Attitude_Control_Bias_Implementation.XLSM
+0867-OPGG-3PCOP-020-F AOCS Register Check.xlsm
+0867-OPGG-3PCOP-021-D AOCS SW Upgrade.xlsm
+0867-OPGG-3PCOP-022-C_Transition_NOM_SK_to_NOM_anomaly.XLSX
+0867-OPGG-3PCOP-023-F Star Tracker Maintenance.xlsm
+0867-OPGG-3PCOP-024-C Fast ACE Switch Over.XLSM
+0867-OPGG-3PCOP-026-C Manual Thrust.xlsm
+0867-OPGG-3PCOP-027-C_AOCS_Errors_Management.xlsm
+0867-OPGG-3PCOP-028-B  ACE EEPROM Refresh.xlsm
+0867-OPGG-3PCOP-030-D FDIR Activation Check.XLSX
+0867-OPGG-3PCOP-035-F_Payload_switch_ON.xlsm
+545  PGH0089  PL Available Power  In Step : 10.1
+561  PGH0089  PL Available Power  In Step : 10.2
+581  PGH0089  PL Available Power  In Step : 10.3
+597  PGH0089  PL Available Power  In Step : 10.4
+613  PGH0089  PL Available Power  In Step : 10.5
+629  PGH0089  PL Available Power  In Step : 10.6
+645  PGH0089  PL Available Power  In Step : 10.7
+661  PGH0089  PL Available Power  In Step : 10.8
+677  PGH0089  PL Available Power  In Step : 10.9
+692  PGH0089  PL Available Power  In Step : 10.10
+708  PGH0089  PL Available Power  In Step : 10.11
+724  PGH0089  PL Available Power  In Step : 10.12
+740  PGH0089  PL Available Power  In Step : 10.13
+756  PGH0089  PL Available Power  In Step : 10.14
+772  PGH0089  PL Available Power  In Step : 10.15
+788  PGH0089  PL Available Power  In Step : 10.16
+804  PGH0089  PL Available Power  In Step : 10.17
+819  PGH0089  PL Available Power  In Step : 10.18
+838  PGH0089  PL Available Power  In Step : 10.19
+854  PGH0089  PL Available Power  In Step : 10.20
+870  PGH0089  PL Available Power  In Step : 10.21
+886  PGH0089  PL Available Power  In Step : 10.22
+902  PGH0089  PL Available Power  In Step : 10.23
+918  PGH0089  PL Available Power  In Step : 10.24
+934  PGH0089  PL Available Power  In Step : 10.25
+950  PGH0089  PL Available Power  In Step : 10.26
+0867-OPGG-3PCOP-036-B Switch communication Rxs ON - OFF.xlsx
+0867-OPGG-3PCOP-037-D_Switch_HPA_ON_-_OFF.xlsx
+0867-OPGG-3PCOP-038-D_Recovery_of_HPA_failure.xlsm
+390  PGH0089  PL Available Power  In Step : 2.2.3
+462  PGH0089  PL Available Power  In Step : 2.4.3
+609  PGH0089  PL Available Power  In Step : 2.6.3
+686  PGH0089  PL Available Power  In Step : 2.8.3
+783  PGH0089  PL Available Power  In Step : 3.2.3
+855  PGH0089  PL Available Power  In Step : 3.4.3
+1012  PGH0089  PL Available Power  In Step : 3.6.3
+1089  PGH0089  PL Available Power  In Step : 3.8.3
+1209  PGH0089  PL Available Power  In Step : 4.4.2
+1256  PGH0089  PL Available Power  In Step : 4.5.2
+1443  PGH0089  PL Available Power  In Step : 4.8.2
+1527  PGH0089  PL Available Power  In Step : 4.10.2
+1581  PGH0089  PL Available Power  In Step : 4.11.2
+1681  PGH0089  PL Available Power  In Step : 5.2.3
+1754  PGH0089  PL Available Power  In Step : 5.4.3
+1901  PGH0089  PL Available Power  In Step : 5.6.3
+1974  PGH0089  PL Available Power  In Step : 5.8.3
+2072  PGH0089  PL Available Power  In Step : 6.2.3
+2150  PGH0089  PL Available Power  In Step : 6.4.3
+2303  PGH0089  PL Available Power  In Step : 6.6.3
+2382  PGH0089  PL Available Power  In Step : 6.8.3
+2494  PGH0089  PL Available Power  In Step : 7.4.2
+2538  PGH0089  PL Available Power  In Step : 7.5.2
+2725  PGH0089  PL Available Power  In Step : 7.8.2
+2809  PGH0089  PL Available Power  In Step : 7.10.2
+2867  PGH0089  PL Available Power  In Step : 7.11.2
+2968  PGH0089  PL Available Power  In Step : 8.2.3
+3042  PGH0089  PL Available Power  In Step : 8.4.3
+3138  PGH0089  PL Available Power  In Step : 8.7.3
+3222  PGH0089  PL Available Power  In Step : 9.2.3
+3291  PGH0089  PL Available Power  In Step : 9.4.3
+3388  PGH0089  PL Available Power  In Step : 9.7.3
+3509  PGH0089  PL Available Power  In Step : 10.4.2
+3553  PGH0089  PL Available Power  In Step : 10.5.2
+3668  PGH0089  PL Available Power  In Step : 11.2.3
+3751  PGH0089  PL Available Power  In Step : 11.4.3
+3906  PGH0089  PL Available Power  In Step : 11.6.3
+3985  PGH0089  PL Available Power  In Step : 11.8.3
+4080  PGH0089  PL Available Power  In Step : 12.2.3
+4158  PGH0089  PL Available Power  In Step : 12.4.3
+4309  PGH0089  PL Available Power  In Step : 12.6.3
+4389  PGH0089  PL Available Power  In Step : 12.8.3
+4504  PGH0089  PL Available Power  In Step : 13.4.2
+4548  PGH0089  PL Available Power  In Step : 13.5.2
+4726  PGH0089  PL Available Power  In Step : 13.8.2
+4808  PGH0089  PL Available Power  In Step : 13.10.2
+4864  PGH0089  PL Available Power  In Step : 13.11.2
+4959  PGH0089  PL Available Power  In Step : 14.2.3
+5035  PGH0089  PL Available Power  In Step : 14.4.3
+5194  PGH0089  PL Available Power  In Step : 14.6.3
+5267  PGH0089  PL Available Power  In Step : 14.8.3
+5364  PGH0089  PL Available Power  In Step : 15.2.3
+5434  PGH0089  PL Available Power  In Step : 15.4.3
+5586  PGH0089  PL Available Power  In Step : 15.6.3
+5665  PGH0089  PL Available Power  In Step : 15.8.3
+5779  PGH0089  PL Available Power  In Step : 16.4.2
+5823  PGH0089  PL Available Power  In Step : 16.5.2
+5998  PGH0089  PL Available Power  In Step : 16.8.2
+6081  PGH0089  PL Available Power  In Step : 16.10.2
+6132  PGH0089  PL Available Power  In Step : 16.11.2
+6225  PGH0089  PL Available Power  In Step : 17.2.3
+6295  PGH0089  PL Available Power  In Step : 17.4.3
+6457  PGH0089  PL Available Power  In Step : 17.6.3
+6537  PGH0089  PL Available Power  In Step : 17.8.3
+6632  PGH0089  PL Available Power  In Step : 18.2.3
+6707  PGH0089  PL Available Power  In Step : 18.4.3
+6863  PGH0089  PL Available Power  In Step : 18.6.3
+6940  PGH0089  PL Available Power  In Step : 18.8.3
+7055  PGH0089  PL Available Power  In Step : 19.4.2
+7100  PGH0089  PL Available Power  In Step : 19.5.2
+7275  PGH0089  PL Available Power  In Step : 19.8.2
+7352  PGH0089  PL Available Power  In Step : 19.10.2
+7405  PGH0089  PL Available Power  In Step : 19.11.2
+7504  PGH0089  PL Available Power  In Step : 20.2.3
+7582  PGH0089  PL Available Power  In Step : 20.4.3
+7743  PGH0089  PL Available Power  In Step : 20.6.3
+7825  PGH0089  PL Available Power  In Step : 20.8.3
+7922  PGH0089  PL Available Power  In Step : 21.2.3
+7999  PGH0089  PL Available Power  In Step : 21.4.3
+8152  PGH0089  PL Available Power  In Step : 21.6.3
+8230  PGH0089  PL Available Power  In Step : 21.8.3
+8352  PGH0089  PL Available Power  In Step : 22.4.2
+8399  PGH0089  PL Available Power  In Step : 22.5.2
+8575  PGH0089  PL Available Power  In Step : 22.8.2
+8657  PGH0089  PL Available Power  In Step : 22.10.2
+8712  PGH0089  PL Available Power  In Step : 22.11.2
+8804  PGH0089  PL Available Power  In Step : 23.2.3
+8882  PGH0089  PL Available Power  In Step : 23.4.3
+8978  PGH0089  PL Available Power  In Step : 23.7.3
+9073  PGH0089  PL Available Power  In Step : 24.2.3
+9148  PGH0089  PL Available Power  In Step : 24.4.3
+9246  PGH0089  PL Available Power  In Step : 24.7.3
+9349  PGH0089  PL Available Power  In Step : 25.4.2
+9384  PGH0089  PL Available Power  In Step : 25.5.2
+9490  PGH0089  PL Available Power  In Step : 26.2.3
+9567  PGH0089  PL Available Power  In Step : 26.4.3
+9718  PGH0089  PL Available Power  In Step : 26.6.3
+9802  PGH0089  PL Available Power  In Step : 26.8.3
+9898  PGH0089  PL Available Power  In Step : 27.2.3
+9978  PGH0089  PL Available Power  In Step : 27.4.3
+10136  PGH0089  PL Available Power  In Step : 27.6.3
+10215  PGH0089  PL Available Power  In Step : 27.8.3
+10335  PGH0089  PL Available Power  In Step : 28.4.2
+10382  PGH0089  PL Available Power  In Step : 28.5.2
+10557  PGH0089  PL Available Power  In Step : 28.8.2
+10640  PGH0089  PL Available Power  In Step : 28.10.2
+10696  PGH0089  PL Available Power  In Step : 28.11.2
+10792  PGH0089  PL Available Power  In Step : 29.2.3
+10867  PGH0089  PL Available Power  In Step : 29.4.3
+11025  PGH0089  PL Available Power  In Step : 29.6.3
+11098  PGH0089  PL Available Power  In Step : 29.8.3
+11191  PGH0089  PL Available Power  In Step : 30.2.3
+11270  PGH0089  PL Available Power  In Step : 30.4.3
+11427  PGH0089  PL Available Power  In Step : 30.6.3
+11505  PGH0089  PL Available Power  In Step : 30.8.3
+11624  PGH0089  PL Available Power  In Step : 31.4.2
+11671  PGH0089  PL Available Power  In Step : 31.5.2
+11856  PGH0089  PL Available Power  In Step : 31.8.2
+11940  PGH0089  PL Available Power  In Step : 31.10.2
+11997  PGH0089  PL Available Power  In Step : 31.11.2
+12093  PGH0089  PL Available Power  In Step : 32.2.3
+12170  PGH0089  PL Available Power  In Step : 32.4.3
+12308  PGH0089  PL Available Power  In Step : 32.6.3
+12379  PGH0089  PL Available Power  In Step : 32.8.3
+12472  PGH0089  PL Available Power  In Step : 33.2.3
+12546  PGH0089  PL Available Power  In Step : 33.4.3
+12694  PGH0089  PL Available Power  In Step : 33.6.3
+12771  PGH0089  PL Available Power  In Step : 33.8.3
+12886  PGH0089  PL Available Power  In Step : 34.4.2
+12928  PGH0089  PL Available Power  In Step : 34.5.2
+13078  PGH0089  PL Available Power  In Step : 34.8.2
+13159  PGH0089  PL Available Power  In Step : 34.10.2
+13256  PGH0089  PL Available Power  In Step : 35.2.3
+13333  PGH0089  PL Available Power  In Step : 35.4.3
+13432  PGH0089  PL Available Power  In Step : 35.7.3
+13527  PGH0089  PL Available Power  In Step : 36.2.3
+13601  PGH0089  PL Available Power  In Step : 36.4.3
+13698  PGH0089  PL Available Power  In Step : 36.7.3
+13810  PGH0089  PL Available Power  In Step : 37.4.2
+13848  PGH0089  PL Available Power  In Step : 37.5.2
+13950  PGH0089  PL Available Power  In Step : 38.2.3
+14023  PGH0089  PL Available Power  In Step : 38.4.3
+14172  PGH0089  PL Available Power  In Step : 38.6.3
+14249  PGH0089  PL Available Power  In Step : 38.8.3
+14343  PGH0089  PL Available Power  In Step : 39.2.3
+14422  PGH0089  PL Available Power  In Step : 39.4.3
+14561  PGH0089  PL Available Power  In Step : 39.6.3
+14635  PGH0089  PL Available Power  In Step : 39.8.3
+14754  PGH0089  PL Available Power  In Step : 40.4.2
+14799  PGH0089  PL Available Power  In Step : 40.5.2
+14950  PGH0089  PL Available Power  In Step : 40.8.2
+15031  PGH0089  PL Available Power  In Step : 40.10.2
+0867-OPGG-3PCOP-039-C Recovery of communication Rx failure.xlsx
+127  PGH0089  PL Available Power  In Step : 2.3.1
+148  PGH0089  PL Available Power  In Step : 2.3.2
+169  PGH0089  PL Available Power  In Step : 2.3.3
+190  PGH0089  PL Available Power  In Step : 2.3.4
+211  PGH0089  PL Available Power  In Step : 2.3.5
+232  PGH0089  PL Available Power  In Step : 2.3.6
+253  PGH0089  PL Available Power  In Step : 2.3.7
+274  PGH0089  PL Available Power  In Step : 2.3.8
+295  PGH0089  PL Available Power  In Step : 2.3.9
+316  PGH0089  PL Available Power  In Step : 2.3.10
+423  PGH0089  PL Available Power  In Step : 2.6.1
+444  PGH0089  PL Available Power  In Step : 2.6.2
+465  PGH0089  PL Available Power  In Step : 2.6.3
+486  PGH0089  PL Available Power  In Step : 2.6.4
+507  PGH0089  PL Available Power  In Step : 2.6.5
+528  PGH0089  PL Available Power  In Step : 2.6.6
+549  PGH0089  PL Available Power  In Step : 2.6.7
+570  PGH0089  PL Available Power  In Step : 2.6.8
+591  PGH0089  PL Available Power  In Step : 2.6.9
+612  PGH0089  PL Available Power  In Step : 2.6.10
+698  PGH0089  PL Available Power  In Step : 3.3.1
+719  PGH0089  PL Available Power  In Step : 3.3.2
+740  PGH0089  PL Available Power  In Step : 3.3.3
+761  PGH0089  PL Available Power  In Step : 3.3.4
+782  PGH0089  PL Available Power  In Step : 3.3.5
+803  PGH0089  PL Available Power  In Step : 3.3.6
+824  PGH0089  PL Available Power  In Step : 3.3.7
+845  PGH0089  PL Available Power  In Step : 3.3.8
+866  PGH0089  PL Available Power  In Step : 3.3.9
+887  PGH0089  PL Available Power  In Step : 3.3.10
+992  PGH0089  PL Available Power  In Step : 3.6.1
+1013  PGH0089  PL Available Power  In Step : 3.6.2
+1034  PGH0089  PL Available Power  In Step : 3.6.3
+1055  PGH0089  PL Available Power  In Step : 3.6.4
+1076  PGH0089  PL Available Power  In Step : 3.6.5
+1097  PGH0089  PL Available Power  In Step : 3.6.6
+1118  PGH0089  PL Available Power  In Step : 3.6.7
+1139  PGH0089  PL Available Power  In Step : 3.6.8
+1160  PGH0089  PL Available Power  In Step : 3.6.9
+1181  PGH0089  PL Available Power  In Step : 3.6.10
+1265  PGH0089  PL Available Power  In Step : 4.3.1
+1286  PGH0089  PL Available Power  In Step : 4.3.2
+1307  PGH0089  PL Available Power  In Step : 4.3.3
+1328  PGH0089  PL Available Power  In Step : 4.3.4
+1349  PGH0089  PL Available Power  In Step : 4.3.5
+1370  PGH0089  PL Available Power  In Step : 4.3.6
+1391  PGH0089  PL Available Power  In Step : 4.3.7
+1412  PGH0089  PL Available Power  In Step : 4.3.8
+1433  PGH0089  PL Available Power  In Step : 4.3.9
+1454  PGH0089  PL Available Power  In Step : 4.3.10
+1564  PGH0089  PL Available Power  In Step : 4.6.1
+1585  PGH0089  PL Available Power  In Step : 4.6.2
+1606  PGH0089  PL Available Power  In Step : 4.6.3
+1627  PGH0089  PL Available Power  In Step : 4.6.4
+1648  PGH0089  PL Available Power  In Step : 4.6.5
+1669  PGH0089  PL Available Power  In Step : 4.6.6
+1690  PGH0089  PL Available Power  In Step : 4.6.7
+1711  PGH0089  PL Available Power  In Step : 4.6.8
+1732  PGH0089  PL Available Power  In Step : 4.6.9
+1753  PGH0089  PL Available Power  In Step : 4.6.10
+1844  PGH0089  PL Available Power  In Step : 5.3.1
+1866  PGH0089  PL Available Power  In Step : 5.3.2
+1887  PGH0089  PL Available Power  In Step : 5.3.3
+1908  PGH0089  PL Available Power  In Step : 5.3.4
+1929  PGH0089  PL Available Power  In Step : 5.3.5
+1950  PGH0089  PL Available Power  In Step : 5.3.6
+1971  PGH0089  PL Available Power  In Step : 5.3.7
+1992  PGH0089  PL Available Power  In Step : 5.3.8
+2013  PGH0089  PL Available Power  In Step : 5.3.9
+2034  PGH0089  PL Available Power  In Step : 5.3.10
+2134  PGH0089  PL Available Power  In Step : 5.6.1
+2155  PGH0089  PL Available Power  In Step : 5.6.2
+2176  PGH0089  PL Available Power  In Step : 5.6.3
+2197  PGH0089  PL Available Power  In Step : 5.6.4
+2218  PGH0089  PL Available Power  In Step : 5.6.5
+2239  PGH0089  PL Available Power  In Step : 5.6.6
+2260  PGH0089  PL Available Power  In Step : 5.6.7
+2281  PGH0089  PL Available Power  In Step : 5.6.8
+2302  PGH0089  PL Available Power  In Step : 5.6.9
+2323  PGH0089  PL Available Power  In Step : 5.6.10
+2401  PGH0089  PL Available Power  In Step : 6.3.1
+2423  PGH0089  PL Available Power  In Step : 6.3.2
+2444  PGH0089  PL Available Power  In Step : 6.3.3
+2532  PGH0089  PL Available Power  In Step : 6.6.1
+2553  PGH0089  PL Available Power  In Step : 6.6.2
+2574  PGH0089  PL Available Power  In Step : 6.6.3
+2644  PGH0089  PL Available Power  In Step : 7.3.1
+2665  PGH0089  PL Available Power  In Step : 7.3.2
+2686  PGH0089  PL Available Power  In Step : 7.3.3
+2772  PGH0089  PL Available Power  In Step : 7.6.1
+2793  PGH0089  PL Available Power  In Step : 7.6.2
+2814  PGH0089  PL Available Power  In Step : 7.6.3
+0867-OPGG-3PCOP-040-H PIDU Switch over.xlsx
+0867-OPGG-3PCOP-041-E L-DLA Configuration.xlsm
+0867-OPGG-3PCOP-042-B Transmitter switch over.xlsx
+0867-OPGG-3PCOP-044-A PL IOT synchronization procedure.xlsx
+0867-OPGG-3PCOP-045-C PL IOT - outgassing procedure.xlsm
+0867-OPGG-3PCOP-046-B PL IOT - gain command ALC.xlsx
+0867-OPGG-3PCOP-047-A PL IOT - gain command FGM.xlsx
+0867-OPGG-3PCOP-048-A PL IOT - Channel Configurations.xlsm
+0867-OPGG-3PCOP-049-D PL IOT KSA START PHASE.XLSX
+29  PGH0089  PL Available Power  In Step : 3.1
+64  PGH0089  PL Available Power  In Step : 3.2
+115  PGH0089  PL Available Power  In Step : 3.2
+161  PGH0089  PL Available Power  In Step : 3.2
+213  PGH0089  PL Available Power  In Step : 3.2
+266  PGH0089  PL Available Power  In Step : 3.2
+0867-OPGG-3PCOP-050-A PL IOT - KR phase.xlsx
+0867-OPGG-3PCOP-051-A PL IOT - KNA phase.xlsx
+0867-OPGG-3PCOP-052-A PL IOT - KRF1 phase.xlsx
+0867-OPGG-3PCOP-053-A PL IOT - KRF2 phase.xlsx
+0867-OPGG-3PCOP-054-A PL IOT - KRF3 phase.xlsx
+0867-OPGG-3PCOP-055-A PL IOT - CN phase.xlsx
+112  PGH0089  PL Available Power  In Step : 3.2.6
+0867-OPGG-3PCOP-056-A PL IOT - CR phase.xlsx
+0867-OPGG-3PCOP-057-A PL IOT - CRF phase.xlsx
+0867-OPGG-3PCOP-058-E Battery Cell package bypassing.xlsm
+0867-OPGG-3PCOP-061-C Battery cell package balancing.xlsx
+0867-OPGG-3PCOP-062-C SADM initialization.xlsx
+0867-OPGG-3PCOP-063-H_SADM_Repositioning.xlsm
+0867-OPGG-3PCOP-064-F_Eclipse_Operation_in_OOC.xlsm
+0867-OPGG-3PCOP-064-G_Eclipse_Operation_in_OOC.xlsm
+0867-OPGG-3PCOP-065-C High power consumption.xlsx
+0867-OPGG-3PCOP-066-C Battery Undervoltage.xlsx
+0867-OPGG-3PCOP-067-C SADM Anomaly.xlsx
+0867-OPGG-3PCOP-069-B PCU Switch Over.XLSX
+0867-OPGG-3PCOP-070-C IM Switch-over.xlsm
+0867-OPGG-3PCOP-071-B BCDR Recovery.XLSX
+0867-OPGG-3PCOP-073-C Heater Line Switching.xlsx
+0867-OPGG-3PCOP-074-G_TCS_Table_adjustment.xlsm
+0867-OPGG-3PCOP-076-C Dump Configuration.XLSX
+0867-OPGG-3PCOP-078-B ranging Path reconfiguration.XLSX
+0867-OPGG-3PCOP-079-B Time Tagged execution failure.XLSX
+0867-OPGG-3PCOP-080-B Dwell format selection.XLSX
+0867-OPGG-3PCOP-081-D  TM path configuration.XLSX
+0867-OPGG-3PCOP-082-B OBCS SW Upgrade.XLSX
+0867-OPGG-3PCOP-084-D Loss of TM Lock using COMM.xlsx
+0867-OPGG-3PCOP-085-D Abnormal TC reception.XLSX
+0867-OPGG-3PCOP-086-E OBCS Checkout.xlsx
+0867-OPGG-3PCOP-087-H OBCS Configuration.XLSX
+0867-OPGG-3PCOP-088-B Time Tagged TC Buffer Management.XLSX
+0867-OPGG-3PCOP-089-B  Error Log Management.XLSX
+0867-OPGG-3PCOP-090-D SPU Switch Over.xlsx
+0867-OPGG-3PCOP-092-D Out of Limit Actions List.XLSX
+0867-OPGG-3PCOP-093-E_OBCS_OBT_Synchronization.xlsx
+0867-OPGG-3PCOP-095-C East & West Antennas Repositioning.xlsx
+0867-OPGG-3PCOP-096-A Select TCR polarization.xlsx
+0867-OPGG-3PCOP-097-B Coverage Selection.xlsx
+0867-OPGG-3PCOP-098-A Configure C beacons.xlsx
+0867-OPGG-3PCOP-101-A PL IOT - Kuband Remaining Switch Tests.xlsx
+0867-OPGG-3PCOP-102-A PL IOT - C band Remaining Switch Tests.xlsx
+0867-OPGG-3PCOP-103-A PL IOT FINAL CONFIGURATION.xlsx
+0867-OPGG-3PCOP-104-A PL IOT KSA END PHASE.xlsx
+0867-OPGG-3PCOP-105-A TC PATH CONFIGURATION.xlsx
+0867-OPGG-3PCOP-106-C Handover Procedure.xlsx
+0867-OPGG-3PCOP-119-A_Kalman_Filter_Update_by_Ground.xlsm
+0867-OPGG-8PCOP-108-B SADM Small Repo & Step Duration Config.XLSM
+0867-OPGG-8PCOP-109-A ST Switchover in NOM.xlsm
+0867-OPGG-8PCOP-110-D_GYRO_on_control_in_NOM-NOM_SK.xlsm
+0867-OPGG-8PCOP-110-E_GYRO_on_control_in_NOM-NOM_SK.xlsm
+0867-OPGG-8PCOP-111-B_TTRS_Bank_1_2_bits_error_correction.xlsm
+0867-OPGG-8PCOP-112-A Star Tracker FOCAL LEN Adjustment.xlsm
+0867-OPGG-8PCOP-113-A Star Tracker SSA & CDI Modes.xlsm
+0867-OPGG-8PCOP-114-A ST TM MEASREFCHK DATA tables download.xlsm
+0867-OPGG-8PCOP-115-A ALC Input Power out of Limit.xlsm
+0867-OPGG-8PCOP-116-A FGM Ouput Power out of Limit.xlsm
+0867-OPGG-8PCOP-117-A ST Memory Dump & Write.xlsm
+0867-OPGG-8PCOP-118-A_GYRO_on_control_drift_test.xlsm
+0867-OPGG-8PCOP-118-B_GYRO_on_control_drift_test.xlsm
+0867-OPGG-8PCOP-119-B_Kalman_Filter_Update_by_Ground.xlsm
+0867-OPGG-8PCOP-121-A_Channels_and_Scrolling_configuration.xlsm
+0867-OPGG-8PCOP-122-A_ST_CCD_TREF_EEPROM_UPLOAD.xlsm
+AR.GDTI.AR2.PROC.0625 - AR2 IRES Inhibition - TCRequest I1R1.xlsm
+********************************************************************
+*  Fri Jun 24 16:15:53 2022
+*  Busqueda de la TM PGH0089
+********************************************************************
+0867-OPGG-3PCOP-001-C Pressurization.xlsx
+0867-OPGG-3PCOP-004-C LAE Isolation and Venting.xlsx
+0867-OPGG-3PCOP-005-D Helium Tank Closure.XLSX
+0867-OPGG-3PCOP-009-E Apogee Maneuver.XLSM
+0867-OPGG-3PCOP-010-C Venting and Priming of the Propulsion Tubing.xlsx
+0867-OPGG-3PCOP-011-E First Earth Acquisition.XLSM
+0867-OPGG-3PCOP-012-D Antenna Mapping.XLSM
+0867-OPGG-3PCOP-025-C Gains For Apogee Maneuver.xlsm
+0867-OPGG-3PCOP-029-F Satellite Health check.XLSX
+0867-OPGG-3PCOP-031-E TO Configuration.xlsx
+0867-OPGG-3PCOP-032-C  Satellite Health Check Contingency.XLSX
+0867-OPGG-3PCOP-033-D East and West reflector deployment.xlsm
+0867-OPGG-3PCOP-059-E Solar array partial deployment.xlsx
+0867-OPGG-3PCOP-060-D Solar array total deployment.xlsx
+0867-OPGG-3PCOP-068-C Eclipse in LEOP.xlsm
+0867-OPGG-3PCOP-083-B Loss of TM Lock using OMNI.XLSX
+0867-OPGG-3PCOP-091-C IOT TCS Heater Power Test.xlsm
+0867-OPGG-3PCOP-095-C East & West Antennas Repositioning.xlsx
+0867-OPGG-3PCOP-099-D Fast ABM (Perigee Contingency).xlsm
+0867-OPGG-3PCOP-100-C Fast Pressurization (Perigee Contingency).xlsx
+0867-OPGG-3PCOP-107-A GO Configuration.xlsx
