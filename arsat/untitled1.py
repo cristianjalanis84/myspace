@@ -17,10 +17,16 @@ Created on Fri May  6 15:36:54 2022
 identTmCode = "   5 0 1"
 b=[]
 
+# directorios de notebook de arsat
+file_object = open(r'C:\Users\calanis\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
+file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
+file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\prueba123456.txt', 'a')
 
-file_object = open(r'C:\Users\crist\Desktop\SCC_V4795_full\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
-file_db = open(r'C:\Users\crist\Desktop\satelite\scrips\AR2_TLM.db', 'rb')
-file_salida = open(r'C:\Users\crist\Desktop\satelite\scrips\prueba123.txt', 'a')
+#directorio de mi notebook
+# file_object = open(r'C:\Users\calanis\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
+# file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
+# file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\prueba123.txt', 'a')
+
 mimic= file_object.readlines()
 mydb = file_db.readlines()
 
@@ -36,7 +42,9 @@ def buscarDescTm(tm , base):
             
             # aux = base[ii+1]
             aux=str(base[ii+1])
-            if aux[4:11] == tm :
+            aux=aux[4:]
+            
+            if aux[:aux.find(" ")] == tm :
                 # index = aux.find('"')
                 # aux=aux[index+1:]
                 aux=aux[aux.find('"')+1:]
@@ -65,13 +73,41 @@ def obtenerxy (s):
 # 5 0 17 "AR2TLM_OIT0124_A\000"
 
 def obtenerCodTm (s):
-    return s[s.find("_")+1:s.find("_")+8]
+    aux = s[s.find("_")+1:]
+    aux = aux[:aux.find("_")]
+    return aux
+
+
+
+identCord = "gp "
+
+def buscarDescMimic (xm ,ym ,mimic):
+    mylista =[]
+    
+    for ii in range(len(mimic)):
+        
+        if mimic[ii][:3] == identCord :
+            xa,ya=obtenerxy(mimic[ii])
+            
+            if ym < (ya + 0.5) and ym > (ya - 0.5) :
+                
+                aux=mimic[ii+3] 
+                if aux.find('"') > -1 :
+                    aux=aux[aux.find('"')+1:]
+                    aux=aux[:aux.find('"')]
+                    if aux[:2] != "ww" :
+                        mylista.append(dict(desc=aux,xref=abs(xm-xa)))
+    
+    return mylista
+          
+    
+    
     
         
 
 
 
-
+flag=0
 for ii in range(0,len(mimic)):
     
     if mimic[ii][:8] == identTmCode:
@@ -82,6 +118,10 @@ for ii in range(0,len(mimic)):
         s = obtenerCodTm(mimic[ii])
         x,y=obtenerxy(mimic[ii+4])
         descdb=buscarDescTm(s, mydb)
+        if flag==0:
+            pepito=buscarDescMimic(x, y, mimic)
+            flag=1
+        
         auxs= s + "    " + str(x) + "     " + str(y) + "    " + descdb + '\n'
         file_salida.write(auxs)
         
