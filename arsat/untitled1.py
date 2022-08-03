@@ -13,19 +13,21 @@ Created on Fri May  6 15:36:54 2022
 # tc="CLF0007"
 
 # aux="{:>11}".format(tc)
+import pandas as pd
 
 identTmCode = "   5 0 1"
 b=[]
 
 # directorios de notebook de arsat
-file_object = open(r'C:\Users\calanis\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
-file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
-file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\prueba123456.txt', 'a')
-
-#directorio de mi notebook
 # file_object = open(r'C:\Users\calanis\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
 # file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
-# file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\prueba123.txt', 'a')
+# file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\prueba123456.txt', 'a')
+
+#directorio de mi notebook
+file_object = open(r'C:\Users\crist\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
+file_db = open(r'C:\Users\crist\Desktop\myspace\arsat\AR2_TLM.db', 'rb')
+file_salida = open(r'C:\Users\crist\Desktop\myspace\arsat\prueba12345.txt', 'a')
+df_tlm = pd.read_excel(r'C:\Users\crist\Desktop\myspace\arsat\thermal_ar2.xlsx')
 
 mimic= file_object.readlines()
 mydb = file_db.readlines()
@@ -88,17 +90,26 @@ def buscarDescMimic (xm ,ym ,mimic):
         
         if mimic[ii][:3] == identCord :
             xa,ya=obtenerxy(mimic[ii])
-            
-            if ym < (ya + 0.5) and ym > (ya - 0.5) :
-                
-                aux=mimic[ii+3] 
-                if aux.find('"') > -1 :
-                    aux=aux[aux.find('"')+1:]
-                    aux=aux[:aux.find('"')]
-                    if aux[:2] != "ww" :
-                        mylista.append(dict(desc=aux,xref=abs(xm-xa)))
+            aux=mimic[ii+3]
+            if ym < (ya + 0.5) and ym > (ya - 0.5) and aux.find('"') > -1:
     
-    return mylista
+                aux=aux[aux.find('"')+1:]
+                aux=aux[:aux.find('"')]
+                if aux[:2] != "ww" :
+                    mylista.append(dict(desc=aux,xref=abs(xm-xa)))
+    tamanio=len(mylista)
+    #index=0
+    xx=500.0
+    if tamanio==0:
+        descripcion="No se encontro"
+    elif tamanio == 1:
+        descripcion=mylista[0]['desc']
+    elif tamanio > 1 :
+        for jj in range(0,tamanio):
+            if mylista[jj]['xref'] < xx :
+                descripcion=mylista[jj]['desc']
+                xx=mylista[jj]['xref']
+    return descripcion
           
     
     
@@ -118,11 +129,10 @@ for ii in range(0,len(mimic)):
         s = obtenerCodTm(mimic[ii])
         x,y=obtenerxy(mimic[ii+4])
         descdb=buscarDescTm(s, mydb)
-        if flag==0:
-            pepito=buscarDescMimic(x, y, mimic)
-            flag=1
         
-        auxs= s + "    " + str(x) + "     " + str(y) + "    " + descdb + '\n'
+        pepito=buscarDescMimic(x, y, mimic)
+
+        auxs= s + "    " + str(x) + "     " + str(y) + "    " + descdb + "    "+pepito + '\n'
         file_salida.write(auxs)
         
 
