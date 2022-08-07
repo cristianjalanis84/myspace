@@ -19,15 +19,18 @@ identTmCode = "   5 0 1"
 b=[]
 
 # directorios de notebook de arsat
-# file_object = open(r'C:\Users\calanis\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
-# file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
-# file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\prueba123456.txt', 'a')
-
+file_object = open(r'C:\Users\calanis\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
+file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
+file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\prueba123456.txt', 'a')
+df_tlm_tmcod = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("A")) # columna A : codigo de TM , columna B : descripcion , columna C : temperatura codigo del sensor
+df_tlm_desc = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("B"))
+df_tlm_sensorcod = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("C"))
+# L1T0020 "CM-N TRP 1TE1-01A mon temp" Temperature (°C) of N-M01
 #directorio de mi notebook
-file_object = open(r'C:\Users\crist\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
-file_db = open(r'C:\Users\crist\Desktop\myspace\arsat\AR2_TLM.db', 'rb')
-file_salida = open(r'C:\Users\crist\Desktop\myspace\arsat\prueba12345.txt', 'a')
-df_tlm = pd.read_excel(r'C:\Users\crist\Desktop\myspace\arsat\thermal_ar2.xlsx')
+# file_object = open(r'C:\Users\crist\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
+# file_db = open(r'C:\Users\crist\Desktop\myspace\arsat\AR2_TLM.db', 'rb')
+# file_salida = open(r'C:\Users\crist\Desktop\myspace\arsat\prueba12345.txt', 'a')
+# df_tlm = pd.read_excel(r'C:\Users\crist\Desktop\myspace\arsat\thermal_ar2.xlsx')
 
 mimic= file_object.readlines()
 mydb = file_db.readlines()
