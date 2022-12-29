@@ -1,142 +1,246 @@
-OIT0263    4.94515181194907     158.80313418217435    IRES TRP ctrl temp1    [SP_TH163 on ES1 TRP]
-OIT0193    4.94515181194907     153.56709108716944    IRES TRP ctrl temp2    [SP_TH164 on ES2 TRP]
-OIT0218    4.94515181194907     148.9128305582762    IRES Support ctrl temp3    [SP_TH165 on support near TRP#1]
-OIT0248    4.94515181194907     138.4407443682664    IRES Support mon temp    [SP_TH166 on support near TRP#2]
-I1B0033    4.94515181194907     127.38687561214496    IRES nom HTR line st    [HT-807 T-ON IRES nom HTR line]
-I2Z0043    4.94515181194907     122.73261508325173    IRES red HTR line st    [HT-808 T-ON IRES red HTR line]
-TFRAME    162.026444662096     185.27424094025466    Frame Counter......    # TFRAME #
-UTYDHMS    227.76787463271302     190.21939275220373    Univ.Tim:yy/ddd/hh:m    WWWWWWWWWWWWWWW
-ERTYDHMS    227.76787463271302     185.27424094025466    Formatted ERT    WWWWWWWWWWWWWWW
-FMT    162.026444662096     180.03819784524975    No encontre nada    WWWWWWWW
-SPC    162.026444662096     190.21939275220373    No encontre nada    WWWWWWWWWWWW
-OSH0000    227.76787463271302     180.03819784524975    FDIR Sticky Seq Runing st    WWWWWWWW
-MODE    93.37610186092067     185.27424094025466    Reception_of_Data    WWWWWW
-TTB    93.37610186092067     180.03819784524975    No encontre nada    WWWWWWWWWWW
-STN    93.37610186092067     190.21939275220373    Datanet_Source_Code    WWWWWWWW
-I1B0053    4.94515181194907     111.9696376101861    SS5-DHP1-IM read st    [HT-807 SS5-DHP1-IM read st]
-I2Z0063    4.94515181194907     107.31537708129284    SS5-DHP2-IM read st    [HT-808 SS5-DHP2-IM read st]
-I1B0053    79.12242899118512     107.31537708129284    SS5-DHP1-IM read st    [HT-802 SS5-DHP1-IM read st]
-I3B0053    79.12242899118512     112.26052889324194    SS5-DHP3-IM read st    [HT-801 SS5-DHP3-IM read st]
-I3B0045    79.12242899118512     127.96865817825662    ST-1 nom HTR line st    [HT-801 ST1 nom HTR line st]
-I1B0045    79.12242899118512     122.73261508325173    ST-1 red HTR line st    [HT-802 ST1 red HTR line st]
-OIT0156    79.12242899118512     139.31341821743388    ST-1 near bracket mon temp    [SP_TH152 near fixation bracket]
-OIT0124    79.12242899118512     154.1488736532811    ST-1 near bracket ctrl temp2    [SP_TH150 near fixation bracket]
-OIT0139    79.12242899118512     148.9128305582762    ST-1 near bracket ctrl temp3    [SP_TH151 near fixation bracket]
-OIT0109    79.12242899118512     159.09402546523017    ST-1 near bracket ctrl temp1    [SP_TH149 near fixation bracket]
-OIT0154    152.42703232125368     158.2213516160627    ST-2 near bracket ctrl temp1    [SP_TH153 near fixation bracket]
-OIT0060    152.42703232125368     153.27619980411362    ST-2 near bracket ctrl temp2    [SP_TH154 near fixation bracket]
-OIT0076    152.42703232125368     148.04015670910871    ST-2 near bracket ctrl temp3    [SP_TH155 near fixation bracket]
-OIT0063    152.42703232125368     137.5680705190989    ST-2 near bracket mon temp    [SP_TH156 near fixation bracket]
-I2Z0051    152.42703232125368     127.38687561214496    ST-2 nom HTR line st    [HT-803 ST2 nom HTR line st]
-I3B0047    152.42703232125368     122.44172380019589    ST-2 red HTR line st    [HT-804 ST2 red HTR line st]
-I2Z0061    152.42703232125368     111.38785504407444    SS3-DHP2-IM read st    [HT-803 SS3-DHP2-IM read st]
-I3B0054    152.42703232125368     106.44270323212537    SS6-DHP3-IM read st    [HT-804 SS6-DHP3-IM read st]
-OIT0078    225.14985308521057     148.04015670910871    SS-1 North near TRP mon temp    [SP_TH155 near fixation bracket]
-OIT0170    225.14985308521057     101.78844270323214    SS-2 South near TRP mon temp    No se encontro
-TSS0131    4.94515181194907     95.38883447600392    Cell_ht_719 Operative st    [Cell_ht_807 Operative Status]
-TSS0132    4.94515181194907     90.73457394711068    Cell_ht_720 Operative st    [Cell_ht_802 Operative Status]
-TSS0129    152.42703232125368     95.97061704211558    Cell_ht_717 Operative st    [Cell_ht_803 Operative Status]
-TSS0130    152.42703232125368     91.31635651322233    Cell_ht_718 Operative st    [Cell_ht_804 Operative Status]
-TSS0127    79.12242899118512     95.97061704211558    Cell_ht_715 Operative st    [Cell_ht_801 Operative Status]
-TSS0128    79.12242899118512     91.60724779627816    Cell_ht_716 Operative st    No se encontro
-L2T0006    5.817825661116553     62.809010773751226    CM-E NW ED ctrl temp    [CM-E NW ED ctrl temp]
-L2T0064    5.817825661116553     57.282076395690495    CM-E SW ED ctrl temp    [CM-E SW ED ctrl temp]
-L2T0035    5.817825661116553     51.46425073457394    CM-E SE ED ctrl temp    [CM-E SE ED ctrl temp]
-L1A0121    5.817825661116553     41.57394711067582    Earth antenna nom HTR line st    [Earth antenna nom HTR line st]
-L2A0119    5.817825661116553     36.04701273261509    Earth antenna red HTR line st    [Earth antenna red HTR line st]
-TSS0083    6.10871694417238     30.520078354554357    Cell_ht_305 Operative st    [Cell_ht_305 Operative st]
-TSS0084    6.10871694417238     24.993143976493627    Cell_ht_306 Operative st    [Cell_ht_306 Operative st]
-L1A0061    6.10871694417238     19.757100881488725    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]
-L2A0059    6.10871694417238     14.230166503428023    SS5-DHP2-PIDU read st    [SS5-DHP2-PIDU read st]
-L1T0008    74.7590597453477     62.809010773751226    Ku ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]
-L1T0079    74.7590597453477     57.282076395690495    Ku ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]
-L1T0022    74.7590597453477     51.46425073457394    Ku ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]
-L1A0091    74.7590597453477     41.57394711067582    ADPM Ku Band nom HTR line st    [ADPM Ku Band nom HTR line st]
-L1A0085    74.7590597453477     36.04701273261509    ADPM Ku Band red HTR line st    [ADPM Ku Band red HTR line st]
-TSS0378    74.7590597453477     30.520078354554357    Cell_ht_307 Operative st    [Cell_ht_307 Operative st]
-TSS0379    74.7590597453477     24.993143976493627    Cell_ht_308 Operative st    [Cell_ht_308 Operative st]
-L1A0067    74.7590597453477     19.757100881488725    SS1-DHP1-PIDU read st    [SS1-DHP1-PIDU read st]
-L1A0061    74.7590597453477     14.230166503428023    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]
-L2T0008    146.02742409402546     63.09990205680705    C ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]
-L2T0066    146.02742409402546     57.57296767874632    C ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]
-L2T0051    146.02742409402546     51.755142017629765    C ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]
-L2A0151    146.02742409402546     41.864838393731645    ADPM C Band nom HTR line st    [ADPM C Band nom HTR line st]
-L2A0145    146.02742409402546     36.337904015670915    ADPM C Band red HTR line st    [ADPM C Band red HTR line st]
-TSS0380    146.02742409402546     30.810969637610185    Cell_ht_309 Operative st    [Cell_ht_309 Operative st]
-TSS0381    146.02742409402546     25.284035259549455    Cell_ht_310 Operative st    [Cell_ht_310 Operative st]
-L2A0067    146.02742409402546     20.047992164544553    SS1-DHP2-PIDU read st    [SS1-DHP2-PIDU read st]
-L2A0061    146.02742409402546     14.521057786483851    SS4-DHP2-PIDU read st    [SS4-DHP2-PIDU read st]
-I1T0083    221.95004897159646     69.49951028403527    CM C-Band Feed mon temp    [C-Band Feed (West Side)]
-I1T0048    221.95004897159646     62.5181194906954    CM Ku-Band Feed mon temp    [Ku-Band Feed (East Side)]
-I1T0015    221.95004897159646     55.827619980411356    CM Greg Antenna mon temp    [Gregorian Antenna (Earth)]
-OIT0263    4.94515181194907     158.80313418217435    IRES TRP ctrl temp1    [SP_TH163 on ES1 TRP]
-OIT0193    4.94515181194907     153.56709108716944    IRES TRP ctrl temp2    [SP_TH164 on ES2 TRP]
-OIT0218    4.94515181194907     148.9128305582762    IRES Support ctrl temp3    [SP_TH165 on support near TRP#1]
-OIT0248    4.94515181194907     138.4407443682664    IRES Support mon temp    [SP_TH166 on support near TRP#2]
-I1B0033    4.94515181194907     127.38687561214496    IRES nom HTR line st    [HT-807 T-ON IRES nom HTR line]
-I2Z0043    4.94515181194907     122.73261508325173    IRES red HTR line st    [HT-808 T-ON IRES red HTR line]
-TFRAME    162.026444662096     185.27424094025466    Frame Counter......    # TFRAME #
-UTYDHMS    227.76787463271302     190.21939275220373    Univ.Tim:yy/ddd/hh:m    WWWWWWWWWWWWWWW
-ERTYDHMS    227.76787463271302     185.27424094025466    Formatted ERT    WWWWWWWWWWWWWWW
-FMT    162.026444662096     180.03819784524975    No encontre nada    WWWWWWWW
-SPC    162.026444662096     190.21939275220373    No encontre nada    WWWWWWWWWWWW
-OSH0000    227.76787463271302     180.03819784524975    FDIR Sticky Seq Runing st    WWWWWWWW
-MODE    93.37610186092067     185.27424094025466    Reception_of_Data    WWWWWW
-TTB    93.37610186092067     180.03819784524975    No encontre nada    WWWWWWWWWWW
-STN    93.37610186092067     190.21939275220373    Datanet_Source_Code    WWWWWWWW
-I1B0053    4.94515181194907     111.9696376101861    SS5-DHP1-IM read st    [HT-807 SS5-DHP1-IM read st]
-I2Z0063    4.94515181194907     107.31537708129284    SS5-DHP2-IM read st    [HT-808 SS5-DHP2-IM read st]
-I1B0053    79.12242899118512     107.31537708129284    SS5-DHP1-IM read st    [HT-802 SS5-DHP1-IM read st]
-I3B0053    79.12242899118512     112.26052889324194    SS5-DHP3-IM read st    [HT-801 SS5-DHP3-IM read st]
-I3B0045    79.12242899118512     127.96865817825662    ST-1 nom HTR line st    [HT-801 ST1 nom HTR line st]
-I1B0045    79.12242899118512     122.73261508325173    ST-1 red HTR line st    [HT-802 ST1 red HTR line st]
-OIT0156    79.12242899118512     139.31341821743388    ST-1 near bracket mon temp    [SP_TH152 near fixation bracket]
-OIT0124    79.12242899118512     154.1488736532811    ST-1 near bracket ctrl temp2    [SP_TH150 near fixation bracket]
-OIT0139    79.12242899118512     148.9128305582762    ST-1 near bracket ctrl temp3    [SP_TH151 near fixation bracket]
-OIT0109    79.12242899118512     159.09402546523017    ST-1 near bracket ctrl temp1    [SP_TH149 near fixation bracket]
-OIT0154    152.42703232125368     158.2213516160627    ST-2 near bracket ctrl temp1    [SP_TH153 near fixation bracket]
-OIT0060    152.42703232125368     153.27619980411362    ST-2 near bracket ctrl temp2    [SP_TH154 near fixation bracket]
-OIT0076    152.42703232125368     148.04015670910871    ST-2 near bracket ctrl temp3    [SP_TH155 near fixation bracket]
-OIT0063    152.42703232125368     137.5680705190989    ST-2 near bracket mon temp    [SP_TH156 near fixation bracket]
-I2Z0051    152.42703232125368     127.38687561214496    ST-2 nom HTR line st    [HT-803 ST2 nom HTR line st]
-I3B0047    152.42703232125368     122.44172380019589    ST-2 red HTR line st    [HT-804 ST2 red HTR line st]
-I2Z0061    152.42703232125368     111.38785504407444    SS3-DHP2-IM read st    [HT-803 SS3-DHP2-IM read st]
-I3B0054    152.42703232125368     106.44270323212537    SS6-DHP3-IM read st    [HT-804 SS6-DHP3-IM read st]
-OIT0078    225.14985308521057     148.04015670910871    SS-1 North near TRP mon temp    [SP_TH155 near fixation bracket]
-OIT0170    225.14985308521057     101.78844270323214    SS-2 South near TRP mon temp    No se encontro
-TSS0131    4.94515181194907     95.38883447600392    Cell_ht_719 Operative st    [Cell_ht_807 Operative Status]
-TSS0132    4.94515181194907     90.73457394711068    Cell_ht_720 Operative st    [Cell_ht_802 Operative Status]
-TSS0129    152.42703232125368     95.97061704211558    Cell_ht_717 Operative st    [Cell_ht_803 Operative Status]
-TSS0130    152.42703232125368     91.31635651322233    Cell_ht_718 Operative st    [Cell_ht_804 Operative Status]
-TSS0127    79.12242899118512     95.97061704211558    Cell_ht_715 Operative st    [Cell_ht_801 Operative Status]
-TSS0128    79.12242899118512     91.60724779627816    Cell_ht_716 Operative st    No se encontro
-L2T0006    5.817825661116553     62.809010773751226    CM-E NW ED ctrl temp    [CM-E NW ED ctrl temp]
-L2T0064    5.817825661116553     57.282076395690495    CM-E SW ED ctrl temp    [CM-E SW ED ctrl temp]
-L2T0035    5.817825661116553     51.46425073457394    CM-E SE ED ctrl temp    [CM-E SE ED ctrl temp]
-L1A0121    5.817825661116553     41.57394711067582    Earth antenna nom HTR line st    [Earth antenna nom HTR line st]
-L2A0119    5.817825661116553     36.04701273261509    Earth antenna red HTR line st    [Earth antenna red HTR line st]
-TSS0083    6.10871694417238     30.520078354554357    Cell_ht_305 Operative st    [Cell_ht_305 Operative st]
-TSS0084    6.10871694417238     24.993143976493627    Cell_ht_306 Operative st    [Cell_ht_306 Operative st]
-L1A0061    6.10871694417238     19.757100881488725    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]
-L2A0059    6.10871694417238     14.230166503428023    SS5-DHP2-PIDU read st    [SS5-DHP2-PIDU read st]
-L1T0008    74.7590597453477     62.809010773751226    Ku ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]
-L1T0079    74.7590597453477     57.282076395690495    Ku ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]
-L1T0022    74.7590597453477     51.46425073457394    Ku ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]
-L1A0091    74.7590597453477     41.57394711067582    ADPM Ku Band nom HTR line st    [ADPM Ku Band nom HTR line st]
-L1A0085    74.7590597453477     36.04701273261509    ADPM Ku Band red HTR line st    [ADPM Ku Band red HTR line st]
-TSS0378    74.7590597453477     30.520078354554357    Cell_ht_307 Operative st    [Cell_ht_307 Operative st]
-TSS0379    74.7590597453477     24.993143976493627    Cell_ht_308 Operative st    [Cell_ht_308 Operative st]
-L1A0067    74.7590597453477     19.757100881488725    SS1-DHP1-PIDU read st    [SS1-DHP1-PIDU read st]
-L1A0061    74.7590597453477     14.230166503428023    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]
-L2T0008    146.02742409402546     63.09990205680705    C ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]
-L2T0066    146.02742409402546     57.57296767874632    C ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]
-L2T0051    146.02742409402546     51.755142017629765    C ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]
-L2A0151    146.02742409402546     41.864838393731645    ADPM C Band nom HTR line st    [ADPM C Band nom HTR line st]
-L2A0145    146.02742409402546     36.337904015670915    ADPM C Band red HTR line st    [ADPM C Band red HTR line st]
-TSS0380    146.02742409402546     30.810969637610185    Cell_ht_309 Operative st    [Cell_ht_309 Operative st]
-TSS0381    146.02742409402546     25.284035259549455    Cell_ht_310 Operative st    [Cell_ht_310 Operative st]
-L2A0067    146.02742409402546     20.047992164544553    SS1-DHP2-PIDU read st    [SS1-DHP2-PIDU read st]
-L2A0061    146.02742409402546     14.521057786483851    SS4-DHP2-PIDU read st    [SS4-DHP2-PIDU read st]
-I1T0083    221.95004897159646     69.49951028403527    CM C-Band Feed mon temp    [C-Band Feed (West Side)]
-I1T0048    221.95004897159646     62.5181194906954    CM Ku-Band Feed mon temp    [Ku-Band Feed (East Side)]
-I1T0015    221.95004897159646     55.827619980411356    CM Greg Antenna mon temp    [Gregorian Antenna (Earth)]
+OIT0263    4.94515181194907     158.80313418217435    IRES TRP ctrl temp1    [SP_TH163 on ES1 TRP]    ____    ____
+OIT0193    4.94515181194907     153.56709108716944    IRES TRP ctrl temp2    [SP_TH164 on ES2 TRP]    ____    ____
+OIT0218    4.94515181194907     148.9128305582762    IRES Support ctrl temp3    [SP_TH165 on support near TRP#1]    ____    ____
+OIT0248    4.94515181194907     138.4407443682664    IRES Support mon temp    [SP_TH166 on support near TRP#2]    ____    ____
+I1B0033    4.94515181194907     127.38687561214496    IRES nom HTR line st    [HT-807 T-ON IRES nom HTR line]    ____    ____
+I2Z0043    4.94515181194907     122.73261508325173    IRES red HTR line st    [HT-808 T-ON IRES red HTR line]    ____    ____
+TFRAME    162.026444662096     185.27424094025466    Frame Counter......    # TFRAME #    ____    ____
+UTYDHMS    227.76787463271302     190.21939275220373    Univ.Tim:yy/ddd/hh:m    WWWWWWWWWWWWWWW    ____    ____
+ERTYDHMS    227.76787463271302     185.27424094025466    Formatted ERT    WWWWWWWWWWWWWWW    ____    ____
+FMT    162.026444662096     180.03819784524975    No encontre nada    WWWWWWWW    ____    ____
+SPC    162.026444662096     190.21939275220373    No encontre nada    WWWWWWWWWWWW    ____    ____
+OSH0000    227.76787463271302     180.03819784524975    FDIR Sticky Seq Runing st    WWWWWWWW    ____    ____
+MODE    93.37610186092067     185.27424094025466    Reception_of_Data    WWWWWW    ____    ____
+TTB    93.37610186092067     180.03819784524975    No encontre nada    WWWWWWWWWWW    ____    ____
+STN    93.37610186092067     190.21939275220373    Datanet_Source_Code    WWWWWWWW    ____    ____
+I1B0053    4.94515181194907     111.9696376101861    SS5-DHP1-IM read st    [HT-807 SS5-DHP1-IM read st]    ____    ____
+I2Z0063    4.94515181194907     107.31537708129284    SS5-DHP2-IM read st    [HT-808 SS5-DHP2-IM read st]    ____    ____
+I1B0053    79.12242899118512     107.31537708129284    SS5-DHP1-IM read st    [HT-802 SS5-DHP1-IM read st]    ____    ____
+I3B0053    79.12242899118512     112.26052889324194    SS5-DHP3-IM read st    [HT-801 SS5-DHP3-IM read st]    ____    ____
+I3B0045    79.12242899118512     127.96865817825662    ST-1 nom HTR line st    [HT-801 ST1 nom HTR line st]    ____    ____
+I1B0045    79.12242899118512     122.73261508325173    ST-1 red HTR line st    [HT-802 ST1 red HTR line st]    ____    ____
+OIT0156    79.12242899118512     139.31341821743388    ST-1 near bracket mon temp    [SP_TH152 near fixation bracket]    ____    ____
+OIT0124    79.12242899118512     154.1488736532811    ST-1 near bracket ctrl temp2    [SP_TH150 near fixation bracket]    ____    ____
+OIT0139    79.12242899118512     148.9128305582762    ST-1 near bracket ctrl temp3    [SP_TH151 near fixation bracket]    ____    ____
+OIT0109    79.12242899118512     159.09402546523017    ST-1 near bracket ctrl temp1    [SP_TH149 near fixation bracket]    ____    ____
+OIT0154    152.42703232125368     158.2213516160627    ST-2 near bracket ctrl temp1    [SP_TH153 near fixation bracket]    ____    ____
+OIT0060    152.42703232125368     153.27619980411362    ST-2 near bracket ctrl temp2    [SP_TH154 near fixation bracket]    ____    ____
+OIT0076    152.42703232125368     148.04015670910871    ST-2 near bracket ctrl temp3    [SP_TH155 near fixation bracket]    ____    ____
+OIT0063    152.42703232125368     137.5680705190989    ST-2 near bracket mon temp    [SP_TH156 near fixation bracket]    ____    ____
+I2Z0051    152.42703232125368     127.38687561214496    ST-2 nom HTR line st    [HT-803 ST2 nom HTR line st]    ____    ____
+I3B0047    152.42703232125368     122.44172380019589    ST-2 red HTR line st    [HT-804 ST2 red HTR line st]    ____    ____
+I2Z0061    152.42703232125368     111.38785504407444    SS3-DHP2-IM read st    [HT-803 SS3-DHP2-IM read st]    ____    ____
+I3B0054    152.42703232125368     106.44270323212537    SS6-DHP3-IM read st    [HT-804 SS6-DHP3-IM read st]    ____    ____
+OIT0078    225.14985308521057     148.04015670910871    SS-1 North near TRP mon temp    [SP_TH155 near fixation bracket]    ____    ____
+OIT0170    225.14985308521057     101.78844270323214    SS-2 South near TRP mon temp    No se encontro    ____    ____
+TSS0131    4.94515181194907     95.38883447600392    Cell_ht_719 Operative st    [Cell_ht_807 Operative Status]    ____    ____
+TSS0132    4.94515181194907     90.73457394711068    Cell_ht_720 Operative st    [Cell_ht_802 Operative Status]    ____    ____
+TSS0129    152.42703232125368     95.97061704211558    Cell_ht_717 Operative st    [Cell_ht_803 Operative Status]    ____    ____
+TSS0130    152.42703232125368     91.31635651322233    Cell_ht_718 Operative st    [Cell_ht_804 Operative Status]    ____    ____
+TSS0127    79.12242899118512     95.97061704211558    Cell_ht_715 Operative st    [Cell_ht_801 Operative Status]    ____    ____
+TSS0128    79.12242899118512     91.60724779627816    Cell_ht_716 Operative st    No se encontro    ____    ____
+L2T0006    5.817825661116553     62.809010773751226    CM-E NW ED ctrl temp    [CM-E NW ED ctrl temp]    ____    ____
+L2T0064    5.817825661116553     57.282076395690495    CM-E SW ED ctrl temp    [CM-E SW ED ctrl temp]    ____    ____
+L2T0035    5.817825661116553     51.46425073457394    CM-E SE ED ctrl temp    [CM-E SE ED ctrl temp]    ____    ____
+L1A0121    5.817825661116553     41.57394711067582    Earth antenna nom HTR line st    [Earth antenna nom HTR line st]    ____    ____
+L2A0119    5.817825661116553     36.04701273261509    Earth antenna red HTR line st    [Earth antenna red HTR line st]    ____    ____
+TSS0083    6.10871694417238     30.520078354554357    Cell_ht_305 Operative st    [Cell_ht_305 Operative st]    ____    ____
+TSS0084    6.10871694417238     24.993143976493627    Cell_ht_306 Operative st    [Cell_ht_306 Operative st]    ____    ____
+L1A0061    6.10871694417238     19.757100881488725    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]    ____    ____
+L2A0059    6.10871694417238     14.230166503428023    SS5-DHP2-PIDU read st    [SS5-DHP2-PIDU read st]    ____    ____
+L1T0008    74.7590597453477     62.809010773751226    Ku ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]    ____    ____
+L1T0079    74.7590597453477     57.282076395690495    Ku ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]    ____    ____
+L1T0022    74.7590597453477     51.46425073457394    Ku ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]    ____    ____
+L1A0091    74.7590597453477     41.57394711067582    ADPM Ku Band nom HTR line st    [ADPM Ku Band nom HTR line st]    ____    ____
+L1A0085    74.7590597453477     36.04701273261509    ADPM Ku Band red HTR line st    [ADPM Ku Band red HTR line st]    ____    ____
+TSS0378    74.7590597453477     30.520078354554357    Cell_ht_307 Operative st    [Cell_ht_307 Operative st]    ____    ____
+TSS0379    74.7590597453477     24.993143976493627    Cell_ht_308 Operative st    [Cell_ht_308 Operative st]    ____    ____
+L1A0067    74.7590597453477     19.757100881488725    SS1-DHP1-PIDU read st    [SS1-DHP1-PIDU read st]    ____    ____
+L1A0061    74.7590597453477     14.230166503428023    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]    ____    ____
+L2T0008    146.02742409402546     63.09990205680705    C ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]    ____    ____
+L2T0066    146.02742409402546     57.57296767874632    C ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]    ____    ____
+L2T0051    146.02742409402546     51.755142017629765    C ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]    ____    ____
+L2A0151    146.02742409402546     41.864838393731645    ADPM C Band nom HTR line st    [ADPM C Band nom HTR line st]    ____    ____
+L2A0145    146.02742409402546     36.337904015670915    ADPM C Band red HTR line st    [ADPM C Band red HTR line st]    ____    ____
+TSS0380    146.02742409402546     30.810969637610185    Cell_ht_309 Operative st    [Cell_ht_309 Operative st]    ____    ____
+TSS0381    146.02742409402546     25.284035259549455    Cell_ht_310 Operative st    [Cell_ht_310 Operative st]    ____    ____
+L2A0067    146.02742409402546     20.047992164544553    SS1-DHP2-PIDU read st    [SS1-DHP2-PIDU read st]    ____    ____
+L2A0061    146.02742409402546     14.521057786483851    SS4-DHP2-PIDU read st    [SS4-DHP2-PIDU read st]    ____    ____
+I1T0083    221.95004897159646     69.49951028403527    CM C-Band Feed mon temp    [C-Band Feed (West Side)]    ____    ____
+I1T0048    221.95004897159646     62.5181194906954    CM Ku-Band Feed mon temp    [Ku-Band Feed (East Side)]    ____    ____
+I1T0015    221.95004897159646     55.827619980411356    CM Greg Antenna mon temp    [Gregorian Antenna (Earth)]    ____    ____
+OIT0263    4.94515181194907     158.80313418217435    IRES TRP ctrl temp1    [SP_TH163 on ES1 TRP]    ____    ____
+OIT0193    4.94515181194907     153.56709108716944    IRES TRP ctrl temp2    [SP_TH164 on ES2 TRP]    ____    ____
+OIT0218    4.94515181194907     148.9128305582762    IRES Support ctrl temp3    [SP_TH165 on support near TRP#1]    ____    ____
+OIT0248    4.94515181194907     138.4407443682664    IRES Support mon temp    [SP_TH166 on support near TRP#2]    ____    ____
+I1B0033    4.94515181194907     127.38687561214496    IRES nom HTR line st    [HT-807 T-ON IRES nom HTR line]    ____    ____
+I2Z0043    4.94515181194907     122.73261508325173    IRES red HTR line st    [HT-808 T-ON IRES red HTR line]    ____    ____
+TFRAME    162.026444662096     185.27424094025466    Frame Counter......    # TFRAME #    ____    ____
+UTYDHMS    227.76787463271302     190.21939275220373    Univ.Tim:yy/ddd/hh:m    WWWWWWWWWWWWWWW    ____    ____
+ERTYDHMS    227.76787463271302     185.27424094025466    Formatted ERT    WWWWWWWWWWWWWWW    ____    ____
+FMT    162.026444662096     180.03819784524975    No encontre nada    WWWWWWWW    ____    ____
+SPC    162.026444662096     190.21939275220373    No encontre nada    WWWWWWWWWWWW    ____    ____
+OIT0263    4.94515181194907     158.80313418217435    IRES TRP ctrl temp1    [SP_TH163 on ES1 TRP]    ____    ____
+OIT0193    4.94515181194907     153.56709108716944    IRES TRP ctrl temp2    [SP_TH164 on ES2 TRP]    ____    ____
+OIT0218    4.94515181194907     148.9128305582762    IRES Support ctrl temp3    [SP_TH165 on support near TRP#1]    ____    ____
+OIT0248    4.94515181194907     138.4407443682664    IRES Support mon temp    [SP_TH166 on support near TRP#2]    ____    ____
+I1B0033    4.94515181194907     127.38687561214496    IRES nom HTR line st    [HT-807 T-ON IRES nom HTR line]    ____    ____
+I2Z0043    4.94515181194907     122.73261508325173    IRES red HTR line st    [HT-808 T-ON IRES red HTR line]    ____    ____
+TFRAME    162.026444662096     185.27424094025466    Frame Counter......    # TFRAME #    ____    ____
+UTYDHMS    227.76787463271302     190.21939275220373    Univ.Tim:yy/ddd/hh:m    WWWWWWWWWWWWWWW    ____    ____
+ERTYDHMS    227.76787463271302     185.27424094025466    Formatted ERT    WWWWWWWWWWWWWWW    ____    ____
+FMT    162.026444662096     180.03819784524975    No encontre nada    WWWWWWWW    ____    ____
+SPC    162.026444662096     190.21939275220373    No encontre nada    WWWWWWWWWWWW    ____    ____
+OIT0263    4.94515181194907     158.80313418217435    IRES TRP ctrl temp1    [SP_TH163 on ES1 TRP]    "IRES TRP ctrl temp1"    Temperature (°C) of SP_TH163
+OIT0193    4.94515181194907     153.56709108716944    IRES TRP ctrl temp2    [SP_TH164 on ES2 TRP]    "IRES TRP ctrl temp2"    Temperature (°C) of SP_TH164
+OIT0218    4.94515181194907     148.9128305582762    IRES Support ctrl temp3    [SP_TH165 on support near TRP#1]    "IRES Support ctrl temp3"    Temperature (°C) of SP_TH165
+OIT0248    4.94515181194907     138.4407443682664    IRES Support mon temp    [SP_TH166 on support near TRP#2]    "IRES Support mon temp"    Temperature (°C) of SP_TH166
+I1B0033    4.94515181194907     127.38687561214496    IRES nom HTR line st    [HT-807 T-ON IRES nom HTR line]    ____    ____
+I2Z0043    4.94515181194907     122.73261508325173    IRES red HTR line st    [HT-808 T-ON IRES red HTR line]    ____    ____
+TFRAME    162.026444662096     185.27424094025466    Frame Counter......    # TFRAME #    ____    ____
+UTYDHMS    227.76787463271302     190.21939275220373    Univ.Tim:yy/ddd/hh:m    WWWWWWWWWWWWWWW    ____    ____
+ERTYDHMS    227.76787463271302     185.27424094025466    Formatted ERT    WWWWWWWWWWWWWWW    ____    ____
+FMT    162.026444662096     180.03819784524975    No encontre nada    WWWWWWWW    ____    ____
+SPC    162.026444662096     190.21939275220373    No encontre nada    WWWWWWWWWWWW    ____    ____
+OSH0000    227.76787463271302     180.03819784524975    FDIR Sticky Seq Runing st    WWWWWWWW    ____    ____
+MODE    93.37610186092067     185.27424094025466    Reception_of_Data    WWWWWW    ____    ____
+TTB    93.37610186092067     180.03819784524975    No encontre nada    WWWWWWWWWWW    ____    ____
+STN    93.37610186092067     190.21939275220373    Datanet_Source_Code    WWWWWWWW    ____    ____
+I1B0053    4.94515181194907     111.9696376101861    SS5-DHP1-IM read st    [HT-807 SS5-DHP1-IM read st]    ____    ____
+I2Z0063    4.94515181194907     107.31537708129284    SS5-DHP2-IM read st    [HT-808 SS5-DHP2-IM read st]    ____    ____
+I1B0053    79.12242899118512     107.31537708129284    SS5-DHP1-IM read st    [HT-802 SS5-DHP1-IM read st]    ____    ____
+I3B0053    79.12242899118512     112.26052889324194    SS5-DHP3-IM read st    [HT-801 SS5-DHP3-IM read st]    ____    ____
+I3B0045    79.12242899118512     127.96865817825662    ST-1 nom HTR line st    [HT-801 ST1 nom HTR line st]    ____    ____
+I1B0045    79.12242899118512     122.73261508325173    ST-1 red HTR line st    [HT-802 ST1 red HTR line st]    ____    ____
+OIT0156    79.12242899118512     139.31341821743388    ST-1 near bracket mon temp    [SP_TH152 near fixation bracket]    "ST-1 near bracket mon temp"    Temperature (°C) of SP_TH152
+OIT0124    79.12242899118512     154.1488736532811    ST-1 near bracket ctrl temp2    [SP_TH150 near fixation bracket]    "ST-1 near bracket ctrl temp2"    Temperature (°C) of SP_TH150
+OIT0139    79.12242899118512     148.9128305582762    ST-1 near bracket ctrl temp3    [SP_TH151 near fixation bracket]    "ST-1 near bracket ctrl temp3"    Temperature (°C) of SP_TH151
+OIT0109    79.12242899118512     159.09402546523017    ST-1 near bracket ctrl temp1    [SP_TH149 near fixation bracket]    "ST-1 near bracket ctrl temp1"    Temperature (°C) of SP_TH149
+OIT0154    152.42703232125368     158.2213516160627    ST-2 near bracket ctrl temp1    [SP_TH153 near fixation bracket]    "ST-2 near bracket ctrl temp1"    Temperature (°C) of SP_TH153
+OIT0060    152.42703232125368     153.27619980411362    ST-2 near bracket ctrl temp2    [SP_TH154 near fixation bracket]    "ST-2 near bracket ctrl temp2"    Temperature (°C) of SP_TH154
+OIT0076    152.42703232125368     148.04015670910871    ST-2 near bracket ctrl temp3    [SP_TH155 near fixation bracket]    "ST-2 near bracket ctrl temp3"    Temperature (°C) of SP_TH155
+OIT0063    152.42703232125368     137.5680705190989    ST-2 near bracket mon temp    [SP_TH156 near fixation bracket]    "ST-2 near bracket mon temp"    Temperature (°C) of SP_TH156
+I2Z0051    152.42703232125368     127.38687561214496    ST-2 nom HTR line st    [HT-803 ST2 nom HTR line st]    ____    ____
+I3B0047    152.42703232125368     122.44172380019589    ST-2 red HTR line st    [HT-804 ST2 red HTR line st]    ____    ____
+I2Z0061    152.42703232125368     111.38785504407444    SS3-DHP2-IM read st    [HT-803 SS3-DHP2-IM read st]    ____    ____
+I3B0054    152.42703232125368     106.44270323212537    SS6-DHP3-IM read st    [HT-804 SS6-DHP3-IM read st]    ____    ____
+OIT0078    225.14985308521057     148.04015670910871    SS-1 North near TRP mon temp    [SP_TH155 near fixation bracket]    "SS-1 North near TRP mon temp"    Temperature (°C) of SP_TH161
+OIT0170    225.14985308521057     101.78844270323214    SS-2 South near TRP mon temp    No se encontro    "SS-2 South near TRP mon temp"    Temperature (°C) of SP_TH162
+TSS0131    4.94515181194907     95.38883447600392    Cell_ht_719 Operative st    [Cell_ht_807 Operative Status]    ____    ____
+TSS0132    4.94515181194907     90.73457394711068    Cell_ht_720 Operative st    [Cell_ht_802 Operative Status]    ____    ____
+TSS0129    152.42703232125368     95.97061704211558    Cell_ht_717 Operative st    [Cell_ht_803 Operative Status]    ____    ____
+TSS0130    152.42703232125368     91.31635651322233    Cell_ht_718 Operative st    [Cell_ht_804 Operative Status]    ____    ____
+TSS0127    79.12242899118512     95.97061704211558    Cell_ht_715 Operative st    [Cell_ht_801 Operative Status]    ____    ____
+TSS0128    79.12242899118512     91.60724779627816    Cell_ht_716 Operative st    No se encontro    ____    ____
+L2T0006    5.817825661116553     62.809010773751226    CM-E NW ED ctrl temp    [CM-E NW ED ctrl temp]    "CM-E NW ED ctrl temp"    Temperature (°C) of E3_1
+L2T0064    5.817825661116553     57.282076395690495    CM-E SW ED ctrl temp    [CM-E SW ED ctrl temp]    "CM-E SW ED ctrl temp"    Temperature (°C) of E3_2
+L2T0035    5.817825661116553     51.46425073457394    CM-E SE ED ctrl temp    [CM-E SE ED ctrl temp]    "CM-E SE ED ctrl temp"    Temperature (°C) of E3_3
+L1A0121    5.817825661116553     41.57394711067582    Earth antenna nom HTR line st    [Earth antenna nom HTR line st]    ____    ____
+L2A0119    5.817825661116553     36.04701273261509    Earth antenna red HTR line st    [Earth antenna red HTR line st]    ____    ____
+TSS0083    6.10871694417238     30.520078354554357    Cell_ht_305 Operative st    [Cell_ht_305 Operative st]    ____    ____
+TSS0084    6.10871694417238     24.993143976493627    Cell_ht_306 Operative st    [Cell_ht_306 Operative st]    ____    ____
+L1A0061    6.10871694417238     19.757100881488725    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]    ____    ____
+L2A0059    6.10871694417238     14.230166503428023    SS5-DHP2-PIDU read st    [SS5-DHP2-PIDU read st]    ____    ____
+L1T0008    74.7590597453477     62.809010773751226    Ku ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]    "CM Ku ADPM-n ctrl temp"    Temperature (°C) of CA1_1
+L1T0079    74.7590597453477     57.282076395690495    Ku ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]    "CM Ku ADPM-r ctrl temp"    Temperature (°C) of CA1_2
+L1T0022    74.7590597453477     51.46425073457394    Ku ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]    "CM Ku deploy reflect ctrl temp"    Temperature (°C) of CA1_3
+L1A0091    74.7590597453477     41.57394711067582    ADPM Ku Band nom HTR line st    [ADPM Ku Band nom HTR line st]    ____    ____
+L1A0085    74.7590597453477     36.04701273261509    ADPM Ku Band red HTR line st    [ADPM Ku Band red HTR line st]    ____    ____
+TSS0378    74.7590597453477     30.520078354554357    Cell_ht_307 Operative st    [Cell_ht_307 Operative st]    ____    ____
+TSS0379    74.7590597453477     24.993143976493627    Cell_ht_308 Operative st    [Cell_ht_308 Operative st]    ____    ____
+L1A0067    74.7590597453477     19.757100881488725    SS1-DHP1-PIDU read st    [SS1-DHP1-PIDU read st]    ____    ____
+L1A0061    74.7590597453477     14.230166503428023    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]    ____    ____
+L2T0008    146.02742409402546     63.09990205680705    C ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]    "CM C ADPM-n ctrl temp"    Temperature (°C) of CA2_1
+L2T0066    146.02742409402546     57.57296767874632    C ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]    "CM C ADPM-r ctrl temp"    Temperature (°C) of CA2_2
+L2T0051    146.02742409402546     51.755142017629765    C ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]    "CM C deploy reflect ctrl temp"    Temperature (°C) of CA2_3
+L2A0151    146.02742409402546     41.864838393731645    ADPM C Band nom HTR line st    [ADPM C Band nom HTR line st]    ____    ____
+L2A0145    146.02742409402546     36.337904015670915    ADPM C Band red HTR line st    [ADPM C Band red HTR line st]    ____    ____
+TSS0380    146.02742409402546     30.810969637610185    Cell_ht_309 Operative st    [Cell_ht_309 Operative st]    ____    ____
+TSS0381    146.02742409402546     25.284035259549455    Cell_ht_310 Operative st    [Cell_ht_310 Operative st]    ____    ____
+L2A0067    146.02742409402546     20.047992164544553    SS1-DHP2-PIDU read st    [SS1-DHP2-PIDU read st]    ____    ____
+L2A0061    146.02742409402546     14.521057786483851    SS4-DHP2-PIDU read st    [SS4-DHP2-PIDU read st]    ____    ____
+I1T0083    221.95004897159646     69.49951028403527    CM C-Band Feed mon temp    [C-Band Feed (West Side)]    "CM C-Band Feed mon temp"    Temperature (°C) of SP_TH236
+I1T0048    221.95004897159646     62.5181194906954    CM Ku-Band Feed mon temp    [Ku-Band Feed (East Side)]    "CM Ku-Band Feed mon temp"    Temperature (°C) of SP_TH235
+I1T0015    221.95004897159646     55.827619980411356    CM Greg Antenna mon temp    [Gregorian Antenna (Earth)]    "CM Greg Antenna mon temp"    Temperature (°C) of SP_TH237
+OIT0263    4.94515181194907     158.80313418217435    IRES TRP ctrl temp1    [SP_TH163 on ES1 TRP]    ____    ____
+OIT0193    4.94515181194907     153.56709108716944    IRES TRP ctrl temp2    [SP_TH164 on ES2 TRP]    ____    ____
+OIT0218    4.94515181194907     148.9128305582762    IRES Support ctrl temp3    [SP_TH165 on support near TRP#1]    ____    ____
+OIT0248    4.94515181194907     138.4407443682664    IRES Support mon temp    [SP_TH166 on support near TRP#2]    ____    ____
+I1B0033    4.94515181194907     127.38687561214496    IRES nom HTR line st    [HT-807 T-ON IRES nom HTR line]    ____    ____
+I2Z0043    4.94515181194907     122.73261508325173    IRES red HTR line st    [HT-808 T-ON IRES red HTR line]    ____    ____
+TFRAME    162.026444662096     185.27424094025466    Frame Counter......    # TFRAME #    ____    ____
+UTYDHMS    227.76787463271302     190.21939275220373    Univ.Tim:yy/ddd/hh:m    WWWWWWWWWWWWWWW    ____    ____
+ERTYDHMS    227.76787463271302     185.27424094025466    Formatted ERT    WWWWWWWWWWWWWWW    ____    ____
+FMT    162.026444662096     180.03819784524975    No encontre nada    WWWWWWWW    ____    ____
+SPC    162.026444662096     190.21939275220373    No encontre nada    WWWWWWWWWWWW    ____    ____
+OIT0263    4.94515181194907     158.80313418217435    IRES TRP ctrl temp1    [SP_TH163 on ES1 TRP]    OIT0263    "IRES TRP ctrl temp1"    Temperature (°C) of SP_TH163
+OIT0193    4.94515181194907     153.56709108716944    IRES TRP ctrl temp2    [SP_TH164 on ES2 TRP]    OIT0193    "IRES TRP ctrl temp2"    Temperature (°C) of SP_TH164
+OIT0218    4.94515181194907     148.9128305582762    IRES Support ctrl temp3    [SP_TH165 on support near TRP#1]    OIT0218    "IRES Support ctrl temp3"    Temperature (°C) of SP_TH165
+OIT0248    4.94515181194907     138.4407443682664    IRES Support mon temp    [SP_TH166 on support near TRP#2]    OIT0248    "IRES Support mon temp"    Temperature (°C) of SP_TH166
+I1B0033    4.94515181194907     127.38687561214496    IRES nom HTR line st    [HT-807 T-ON IRES nom HTR line]    ____    ____    ____
+I2Z0043    4.94515181194907     122.73261508325173    IRES red HTR line st    [HT-808 T-ON IRES red HTR line]    ____    ____    ____
+TFRAME    162.026444662096     185.27424094025466    Frame Counter......    # TFRAME #    ____    ____    ____
+UTYDHMS    227.76787463271302     190.21939275220373    Univ.Tim:yy/ddd/hh:m    WWWWWWWWWWWWWWW    ____    ____    ____
+ERTYDHMS    227.76787463271302     185.27424094025466    Formatted ERT    WWWWWWWWWWWWWWW    ____    ____    ____
+FMT    162.026444662096     180.03819784524975    No encontre nada    WWWWWWWW    ____    ____    ____
+SPC    162.026444662096     190.21939275220373    No encontre nada    WWWWWWWWWWWW    ____    ____    ____
+OSH0000    227.76787463271302     180.03819784524975    FDIR Sticky Seq Runing st    WWWWWWWW    ____    ____    ____
+MODE    93.37610186092067     185.27424094025466    Reception_of_Data    WWWWWW    ____    ____    ____
+TTB    93.37610186092067     180.03819784524975    No encontre nada    WWWWWWWWWWW    ____    ____    ____
+STN    93.37610186092067     190.21939275220373    Datanet_Source_Code    WWWWWWWW    ____    ____    ____
+I1B0053    4.94515181194907     111.9696376101861    SS5-DHP1-IM read st    [HT-807 SS5-DHP1-IM read st]    ____    ____    ____
+I2Z0063    4.94515181194907     107.31537708129284    SS5-DHP2-IM read st    [HT-808 SS5-DHP2-IM read st]    ____    ____    ____
+I1B0053    79.12242899118512     107.31537708129284    SS5-DHP1-IM read st    [HT-802 SS5-DHP1-IM read st]    ____    ____    ____
+I3B0053    79.12242899118512     112.26052889324194    SS5-DHP3-IM read st    [HT-801 SS5-DHP3-IM read st]    ____    ____    ____
+I3B0045    79.12242899118512     127.96865817825662    ST-1 nom HTR line st    [HT-801 ST1 nom HTR line st]    ____    ____    ____
+I1B0045    79.12242899118512     122.73261508325173    ST-1 red HTR line st    [HT-802 ST1 red HTR line st]    ____    ____    ____
+OIT0156    79.12242899118512     139.31341821743388    ST-1 near bracket mon temp    [SP_TH152 near fixation bracket]    OIT0156    "ST-1 near bracket mon temp"    Temperature (°C) of SP_TH152
+OIT0124    79.12242899118512     154.1488736532811    ST-1 near bracket ctrl temp2    [SP_TH150 near fixation bracket]    OIT0124    "ST-1 near bracket ctrl temp2"    Temperature (°C) of SP_TH150
+OIT0139    79.12242899118512     148.9128305582762    ST-1 near bracket ctrl temp3    [SP_TH151 near fixation bracket]    OIT0139    "ST-1 near bracket ctrl temp3"    Temperature (°C) of SP_TH151
+OIT0109    79.12242899118512     159.09402546523017    ST-1 near bracket ctrl temp1    [SP_TH149 near fixation bracket]    OIT0109    "ST-1 near bracket ctrl temp1"    Temperature (°C) of SP_TH149
+OIT0154    152.42703232125368     158.2213516160627    ST-2 near bracket ctrl temp1    [SP_TH153 near fixation bracket]    OIT0154    "ST-2 near bracket ctrl temp1"    Temperature (°C) of SP_TH153
+OIT0060    152.42703232125368     153.27619980411362    ST-2 near bracket ctrl temp2    [SP_TH154 near fixation bracket]    OIT0060    "ST-2 near bracket ctrl temp2"    Temperature (°C) of SP_TH154
+OIT0076    152.42703232125368     148.04015670910871    ST-2 near bracket ctrl temp3    [SP_TH155 near fixation bracket]    OIT0076    "ST-2 near bracket ctrl temp3"    Temperature (°C) of SP_TH155
+OIT0063    152.42703232125368     137.5680705190989    ST-2 near bracket mon temp    [SP_TH156 near fixation bracket]    OIT0063    "ST-2 near bracket mon temp"    Temperature (°C) of SP_TH156
+I2Z0051    152.42703232125368     127.38687561214496    ST-2 nom HTR line st    [HT-803 ST2 nom HTR line st]    ____    ____    ____
+I3B0047    152.42703232125368     122.44172380019589    ST-2 red HTR line st    [HT-804 ST2 red HTR line st]    ____    ____    ____
+I2Z0061    152.42703232125368     111.38785504407444    SS3-DHP2-IM read st    [HT-803 SS3-DHP2-IM read st]    ____    ____    ____
+I3B0054    152.42703232125368     106.44270323212537    SS6-DHP3-IM read st    [HT-804 SS6-DHP3-IM read st]    ____    ____    ____
+OIT0078    225.14985308521057     148.04015670910871    SS-1 North near TRP mon temp    [SP_TH155 near fixation bracket]    OIT0078    "SS-1 North near TRP mon temp"    Temperature (°C) of SP_TH161
+OIT0170    225.14985308521057     101.78844270323214    SS-2 South near TRP mon temp    No se encontro    OIT0170    "SS-2 South near TRP mon temp"    Temperature (°C) of SP_TH162
+TSS0131    4.94515181194907     95.38883447600392    Cell_ht_719 Operative st    [Cell_ht_807 Operative Status]    ____    ____    ____
+TSS0132    4.94515181194907     90.73457394711068    Cell_ht_720 Operative st    [Cell_ht_802 Operative Status]    ____    ____    ____
+TSS0129    152.42703232125368     95.97061704211558    Cell_ht_717 Operative st    [Cell_ht_803 Operative Status]    ____    ____    ____
+TSS0130    152.42703232125368     91.31635651322233    Cell_ht_718 Operative st    [Cell_ht_804 Operative Status]    ____    ____    ____
+TSS0127    79.12242899118512     95.97061704211558    Cell_ht_715 Operative st    [Cell_ht_801 Operative Status]    ____    ____    ____
+TSS0128    79.12242899118512     91.60724779627816    Cell_ht_716 Operative st    No se encontro    ____    ____    ____
+L2T0006    5.817825661116553     62.809010773751226    CM-E NW ED ctrl temp    [CM-E NW ED ctrl temp]    L2T0006    "CM-E NW ED ctrl temp"    Temperature (°C) of E3_1
+L2T0064    5.817825661116553     57.282076395690495    CM-E SW ED ctrl temp    [CM-E SW ED ctrl temp]    L2T0064    "CM-E SW ED ctrl temp"    Temperature (°C) of E3_2
+L2T0035    5.817825661116553     51.46425073457394    CM-E SE ED ctrl temp    [CM-E SE ED ctrl temp]    L2T0035    "CM-E SE ED ctrl temp"    Temperature (°C) of E3_3
+L1A0121    5.817825661116553     41.57394711067582    Earth antenna nom HTR line st    [Earth antenna nom HTR line st]    ____    ____    ____
+L2A0119    5.817825661116553     36.04701273261509    Earth antenna red HTR line st    [Earth antenna red HTR line st]    ____    ____    ____
+TSS0083    6.10871694417238     30.520078354554357    Cell_ht_305 Operative st    [Cell_ht_305 Operative st]    ____    ____    ____
+TSS0084    6.10871694417238     24.993143976493627    Cell_ht_306 Operative st    [Cell_ht_306 Operative st]    ____    ____    ____
+L1A0061    6.10871694417238     19.757100881488725    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]    ____    ____    ____
+L2A0059    6.10871694417238     14.230166503428023    SS5-DHP2-PIDU read st    [SS5-DHP2-PIDU read st]    ____    ____    ____
+L1T0008    74.7590597453477     62.809010773751226    Ku ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]    L1T0008    "CM Ku ADPM-n ctrl temp"    Temperature (°C) of CA1_1
+L1T0079    74.7590597453477     57.282076395690495    Ku ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]    L1T0079    "CM Ku ADPM-r ctrl temp"    Temperature (°C) of CA1_2
+L1T0022    74.7590597453477     51.46425073457394    Ku ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]    L1T0022    "CM Ku deploy reflect ctrl temp"    Temperature (°C) of CA1_3
+L1A0091    74.7590597453477     41.57394711067582    ADPM Ku Band nom HTR line st    [ADPM Ku Band nom HTR line st]    ____    ____    ____
+L1A0085    74.7590597453477     36.04701273261509    ADPM Ku Band red HTR line st    [ADPM Ku Band red HTR line st]    ____    ____    ____
+TSS0378    74.7590597453477     30.520078354554357    Cell_ht_307 Operative st    [Cell_ht_307 Operative st]    ____    ____    ____
+TSS0379    74.7590597453477     24.993143976493627    Cell_ht_308 Operative st    [Cell_ht_308 Operative st]    ____    ____    ____
+L1A0067    74.7590597453477     19.757100881488725    SS1-DHP1-PIDU read st    [SS1-DHP1-PIDU read st]    ____    ____    ____
+L1A0061    74.7590597453477     14.230166503428023    SS4-DHP1-PIDU read st    [SS4-DHP1-PIDU read st]    ____    ____    ____
+L2T0008    146.02742409402546     63.09990205680705    C ADPM ctrl temp 1    [CM Ku ADPM-n ctrl temp]    L2T0008    "CM C ADPM-n ctrl temp"    Temperature (°C) of CA2_1
+L2T0066    146.02742409402546     57.57296767874632    C ADPM ctrl temp 3    [CM Ku ADPM-r ctrl temp]    L2T0066    "CM C ADPM-r ctrl temp"    Temperature (°C) of CA2_2
+L2T0051    146.02742409402546     51.755142017629765    C ADPM ctrl temp 2    [CM Ku deploy reflect ctrl temp]    L2T0051    "CM C deploy reflect ctrl temp"    Temperature (°C) of CA2_3
+L2A0151    146.02742409402546     41.864838393731645    ADPM C Band nom HTR line st    [ADPM C Band nom HTR line st]    ____    ____    ____
+L2A0145    146.02742409402546     36.337904015670915    ADPM C Band red HTR line st    [ADPM C Band red HTR line st]    ____    ____    ____
+TSS0380    146.02742409402546     30.810969637610185    Cell_ht_309 Operative st    [Cell_ht_309 Operative st]    ____    ____    ____
+TSS0381    146.02742409402546     25.284035259549455    Cell_ht_310 Operative st    [Cell_ht_310 Operative st]    ____    ____    ____
+L2A0067    146.02742409402546     20.047992164544553    SS1-DHP2-PIDU read st    [SS1-DHP2-PIDU read st]    ____    ____    ____
+L2A0061    146.02742409402546     14.521057786483851    SS4-DHP2-PIDU read st    [SS4-DHP2-PIDU read st]    ____    ____    ____
+I1T0083    221.95004897159646     69.49951028403527    CM C-Band Feed mon temp    [C-Band Feed (West Side)]    I1T0083    "CM C-Band Feed mon temp"    Temperature (°C) of SP_TH236
+I1T0048    221.95004897159646     62.5181194906954    CM Ku-Band Feed mon temp    [Ku-Band Feed (East Side)]    I1T0048    "CM Ku-Band Feed mon temp"    Temperature (°C) of SP_TH235
+I1T0015    221.95004897159646     55.827619980411356    CM Greg Antenna mon temp    [Gregorian Antenna (Earth)]    I1T0015    "CM Greg Antenna mon temp"    Temperature (°C) of SP_TH237

@@ -19,22 +19,28 @@ identTmCode = "   5 0 1"
 b=[]
 
 # directorios de notebook de arsat
-file_object = open(r'C:\Users\calanis\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
-file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
-file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\prueba123456.txt', 'a')
-df_tlm_tmcod = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("A")) # columna A : codigo de TM , columna B : descripcion , columna C : temperatura codigo del sensor
-df_tlm_desc = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("B"))
-df_tlm_sensorcod = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("C"))
+# file_object = open(r'C:\Users\calanis\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
+# file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
+# file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\prueba123456.txt', 'a')
+# df_tlm_tmcod = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("A")) # columna A : codigo de TM , columna B : descripcion , columna C : temperatura codigo del sensor
+# df_tlm_desc = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("B"))
+# df_tlm_sensorcod = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("C"))
 # L1T0020 "CM-N TRP 1TE1-01A mon temp" Temperature (°C) of N-M01
 #directorio de mi notebook
-# file_object = open(r'C:\Users\crist\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
-# file_db = open(r'C:\Users\crist\Desktop\myspace\arsat\AR2_TLM.db', 'rb')
-# file_salida = open(r'C:\Users\crist\Desktop\myspace\arsat\prueba12345.txt', 'a')
-# df_tlm = pd.read_excel(r'C:\Users\crist\Desktop\myspace\arsat\thermal_ar2.xlsx')
+
+#file_object = open(r'C:\Users\crist\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_PROP_TUBING.DRW', 'r')
+file_object = open(r'C:\Users\crist\Desktop\SCC\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')
+file_db = open(r'C:\Users\crist\Desktop\myspace\arsat\AR2_TLM.db', 'rb')
+file_salida = open(r'C:\Users\crist\Desktop\myspace\arsat\pruebaa.txt', 'a')
+df_tlm = pd.read_excel(r'C:\Users\crist\Desktop\myspace\arsat\thermal_ar2.xlsx',usecols=("A"))# columna A : codigo de TM , columna B : descripcion , columna C : temperatura codigo del sensor
+df_tlm_desc = pd.read_excel(r'C:\Users\crist\Desktop\myspace\arsat\thermal_ar2.xlsx',usecols=("B"))
+df_tlm_sensorcod = pd.read_excel(r'C:\Users\crist\Desktop\myspace\arsat\thermal_ar2.xlsx',usecols=("C"))
 
 mimic= file_object.readlines()
 mydb = file_db.readlines()
-
+# tmSohCod = df_tlm.readlines()
+# tmSohDesc = df_tlm_desc.readlines()
+# tmSohSensorDesc = df_tlm_sensorcod.readlines()
 def buscarDescTm(tm , base):
     print("holiss")
     
@@ -62,6 +68,7 @@ def buscarDescTm(tm , base):
     return auxDesc
 #gp 4.9451518119490698e+000 1.2273261508325172e+002
 
+#Obtiene las coordenadas X Y de un "gp 4.9451518119490698e+000 1.2273261508325172e+002"
 def obtenerxy (s):
     auxx = s[s.find(" ") + 1:s.find("e")]
     expx = s[s.find("e")+4]
@@ -86,7 +93,7 @@ def obtenerCodTm (s):
 
 identCord = "gp "
 
-def buscarDescMimic (xm ,ym ,mimic):
+def buscarDescMimic (xm ,ym ,mimic,descPos):
     mylista =[]
     
     for ii in range(len(mimic)):
@@ -94,12 +101,12 @@ def buscarDescMimic (xm ,ym ,mimic):
         if mimic[ii][:3] == identCord :
             xa,ya=obtenerxy(mimic[ii])
             aux=mimic[ii+3]
-            if ym < (ya + 0.5) and ym > (ya - 0.5) and aux.find('"') > -1:
+            if ya < (ym + 0.7) and ya > (ym - 0.7) and aux.find('"') > -1:
     
                 aux=aux[aux.find('"')+1:]
                 aux=aux[:aux.find('"')]
                 if aux[:2] != "ww" :
-                    mylista.append(dict(desc=aux,xref=abs(xm-xa)))
+                    mylista.append(dict(desc=aux,xref=(xm-xa)))
     tamanio=len(mylista)
     #index=0
     xx=500.0
@@ -109,12 +116,32 @@ def buscarDescMimic (xm ,ym ,mimic):
         descripcion=mylista[0]['desc']
     elif tamanio > 1 :
         for jj in range(0,tamanio):
-            if mylista[jj]['xref'] < xx :
-                descripcion=mylista[jj]['desc']
-                xx=mylista[jj]['xref']
+            if descPos == "Right":
+                if abs(mylista[jj]['xref']) < xx :
+                    descripcion=mylista[jj]['desc']
+                    xx=abs(mylista[jj]['xref'])
+            elif descPos == "Left":
+                if (mylista[jj]['xref']) > 0  and abs(mylista[jj]['xref'])<xx :
+                    descripcion=mylista[jj]['desc']
+                    xx=abs(mylista[jj]['xref'])
+                    
     return descripcion
-          
-    
+ 
+
+# tmSohCod = file_db.readlines()
+# tmSohDesc = file_db.readlines()
+# tmSohSensorDesc = file_db.readlines()         
+def buscarTmSoh(descTm):
+    tmdescsoh="____"
+    tmsensorsoh="____"
+    tmcode="____"
+    for jj in range(0,int(len(df_tlm))):
+        if df_tlm.loc[jj].to_string(index=False) == descTm :
+            tmdescsoh = df_tlm_desc.loc[jj].to_string(index=False)
+            tmsensorsoh = df_tlm_sensorcod.loc[jj].to_string(index=False)
+            tmcode=df_tlm.loc[jj].to_string(index=False)
+            
+    return tmdescsoh,tmsensorsoh,tmcode
     
     
         
@@ -122,20 +149,24 @@ def buscarDescMimic (xm ,ym ,mimic):
 
 
 flag=0
+ss="{:<12}".format("TM mimic") +"{:45}".format("Descripcion de la mimic") + "{:45}".format("Descripcion de la base de datos")  +"{:12}".format("TM cod SOH")  +"{:45}".format("Descripcion de la tm en el SOH") + "{:50}".format("Descripcion del sensor en el SOH") + '\n'
+file_salida.write(ss)
 for ii in range(0,len(mimic)):
     
-    if mimic[ii][:8] == identTmCode:
+    if mimic[ii][:8] == identTmCode:   #identTmCode = "   5 0 1"
         
         # b.append(mimic[ii])
         
         # b.append(mimic[ii+4])
-        s = obtenerCodTm(mimic[ii])
-        x,y=obtenerxy(mimic[ii+4])
+        s = obtenerCodTm(mimic[ii])    #De la lin actual que empieza con "   5 0 1" obtengo el codigo de la tm 
+        x,y=obtenerxy(mimic[ii+4])     #4 lin hacia abajo se obtiene las cordenadas X Y de la tm
         descdb=buscarDescTm(s, mydb)
         
-        pepito=buscarDescMimic(x, y, mimic)
+        pepito=buscarDescMimic(x, y, mimic,"Right")
+        
+        tmdescsoh,tmsensorsoh,tmcode=buscarTmSoh(s)
 
-        auxs= s + "    " + str(x) + "     " + str(y) + "    " + descdb + "    "+pepito + '\n'
+        auxs= "{:<12}".format(s) + "{:45}".format(pepito) + "{:45}".format(descdb)  +"{:12}".format(tmcode)  +"{:45}".format(tmdescsoh) + "{:50}".format(tmsensorsoh) + "{:<22}".format(str(x)) + "{:<22}".format(str(y))+'\n' #+ "    " + str(x) + "     " + str(y) 
         file_salida.write(auxs)
         
 
