@@ -19,9 +19,9 @@ identTmCode = "   5 0 1"
 b=[]
 
 # directorios de notebook de arsat
-file_object = open(r'C:\Users\calanis\Desktop\SCC_V4795_full\mimics.ar2\AIT-Proc\AR2_PROPULSION_SS_MON_TEMP_1.DRW', 'r')#TVAC\
+file_object = open(r'C:\Users\calanis\Desktop\SCC_V4795_full\mimics.ar2\AIT-Proc\AR2_CM_-_EARTH_PANEL_TEMPERATURES_1.DRW', 'r')#TVAC\
 file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
-file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_PROPULSION_SS_MON_TEMP_1.txt', 'a')
+file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_CM_-_EARTH_PANEL_TEMPERATURES_1.txt', 'a')
 df_tlm = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("A")) # columna A : codigo de TM , columna B : descripcion , columna C : temperatura codigo del sensor
 df_tlm_desc = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("B"))
 df_tlm_sensorcod = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("C"))
@@ -42,7 +42,7 @@ mydb = file_db.readlines()
 # tmSohDesc = df_tlm_desc.readlines()
 # tmSohSensorDesc = df_tlm_sensorcod.readlines()
 def buscarDescTm(tm , base):
-    print("holiss")
+    
     
     identBdTm = "&def_param {"
     auxDesc="No encontre nada"
@@ -95,13 +95,14 @@ identCord = "gp "
 
 def buscarDescMimic (xm ,ym ,mimic,descPos,s):
     mylista =[]
+    descripcion = 'No se encontro'
     
     for ii in range(len(mimic)):
         
         if mimic[ii][:3] == identCord :
             xa,ya=obtenerxy(mimic[ii])
             aux=mimic[ii+3]
-            if ya < (ym + 0.7) and ya > (ym - 0.7) and aux.find('"') > -1:
+            if ya < (ym + 1.5) and ya > (ym - 1.5) and aux.find('"') > -1:
     
                 aux=aux[aux.find('"')+1:]
                 if aux.find('"') == -1:
@@ -120,7 +121,7 @@ def buscarDescMimic (xm ,ym ,mimic,descPos,s):
     elif tamanio > 1 :
         for jj in range(0,tamanio):
             if descPos == "Right":
-                if abs(mylista[jj]['xref']) < xx :
+                if (mylista[jj]['xref']) < 0  and abs(mylista[jj]['xref']) < xx :
                     descripcion=mylista[jj]['desc']
                     xx=abs(mylista[jj]['xref'])
             elif descPos == "Left":
@@ -154,10 +155,12 @@ def buscarTmSoh(descTm):
 flag=0
 ss="{:<12}".format("TM mimic") +"{:70}".format("Descripcion de la mimic") + "{:45}".format("Descripcion de la base de datos")  +"{:12}".format("TM cod SOH")  +"{:45}".format("Descripcion de la tm en el SOH") + "{:50}".format("Descripcion del sensor en el SOH") + '\n'
 file_salida.write(ss)
+
+
 for ii in range(0,len(mimic)):
-    
+   
     if mimic[ii][:8] == identTmCode:   #identTmCode = "   5 0 1"
-        
+        print(f"Procesando el {(ii/len(mimic))*100:.1f} %")
         # b.append(mimic[ii])
         
         # b.append(mimic[ii+4])
