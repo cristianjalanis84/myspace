@@ -19,9 +19,9 @@ identTmCode = "   5 0 1"
 b=[]
 
 # directorios de notebook de arsat
-file_object = open(r'C:\Users\calanis\Desktop\SCC_V4795_full\mimics.ar2\AIT-Proc\TVAC\AR2_TVAC_SATELLITE_APP_TEMP.DRW', 'r')#TVAC\
-file_db = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TLM.db', 'rb')
-file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_TVAC_SATELLITE_APP_TEMP.txt', 'a')
+file_object = open(r'C:\Users\calanis\Desktop\SCC_V5060_full\mimics.ar2\AIT-Proc\AR2_PROPULSION_MODULE_TEMPERATURES_5.DRW', 'r')#TVAC\
+file_db = open(r'C:\Users\calanis\Desktop\SCC_V5060_full\Database.ar2\AR2_TLM.db', 'rb')
+file_salida = open(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\AR2_PROPULSION_MODULE_TEMPERATURES_5.txt', 'a')
 df_tlm = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("A")) # columna A : codigo de TM , columna B : descripcion , columna C : temperatura codigo del sensor
 df_tlm_desc = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("B"))
 df_tlm_sensorcod = pd.read_excel(r'C:\Users\calanis\Documents\GitHub\myspace\arsat\thermal_ar2.xlsx',usecols=("C"))
@@ -49,7 +49,7 @@ def buscarDescTm(tm , base):
     for ii in range(len(base)):
         # aux2 = base[ii][:12]
         aux2=str(base[ii][:12])
-        if aux2[2:14] ==identBdTm:
+        if aux2[2:14] ==identBdTm:  # ACA TENDRIA QUE SER aux2 == identBdTm
             
             # aux = base[ii+1]
             aux=str(base[ii+1])
